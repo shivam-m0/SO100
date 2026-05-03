@@ -1,0 +1,1 @@
+/home/shivam/so100/src/so100_simulation/launch/sim2.launch.py

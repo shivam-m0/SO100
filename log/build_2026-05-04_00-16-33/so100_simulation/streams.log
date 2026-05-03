@@ -1,0 +1,25 @@
+[0.007s] Invoking command in '/home/shivam/so100/build/so100_simulation': CMAKE_PREFIX_PATH=/opt/ros/humble /home/shivam/.local/bin/cmake --build /home/shivam/so100/build/so100_simulation -- -j12 -l12
+[0.070s] Invoked command in '/home/shivam/so100/build/so100_simulation' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /home/shivam/.local/bin/cmake --build /home/shivam/so100/build/so100_simulation -- -j12 -l12
+[0.117s] Invoking command in '/home/shivam/so100/build/so100_simulation': CMAKE_PREFIX_PATH=/opt/ros/humble /home/shivam/.local/bin/cmake --install /home/shivam/so100/build/so100_simulation
+[0.171s] -- Install configuration: ""
+[0.171s] -- Execute custom install script
+[0.171s] -- Up-to-date symlink: /home/shivam/so100/install/so100_simulation/share/so100_simulation/launch/a
+[0.171s] -- Up-to-date symlink: /home/shivam/so100/install/so100_simulation/share/so100_simulation/launch/sim.launch.py
+[0.171s] -- Up-to-date symlink: /home/shivam/so100/install/so100_simulation/share/so100_simulation/launch/sim2.launch.py
+[0.172s] -- Up-to-date symlink: /home/shivam/so100/install/so100_simulation/share/so100_simulation/launch/world.launch.py
+[0.172s] -- Up-to-date symlink: /home/shivam/so100/install/so100_simulation/share/ament_index/resource_index/package_run_dependencies/so100_simulation
+[0.172s] -- Up-to-date symlink: /home/shivam/so100/install/so100_simulation/share/ament_index/resource_index/parent_prefix_path/so100_simulation
+[0.172s] -- Up-to-date symlink: /home/shivam/so100/install/so100_simulation/share/so100_simulation/environment/ament_prefix_path.sh
+[0.172s] -- Up-to-date symlink: /home/shivam/so100/install/so100_simulation/share/so100_simulation/environment/ament_prefix_path.dsv
+[0.172s] -- Up-to-date symlink: /home/shivam/so100/install/so100_simulation/share/so100_simulation/environment/path.sh
+[0.172s] -- Up-to-date symlink: /home/shivam/so100/install/so100_simulation/share/so100_simulation/environment/path.dsv
+[0.172s] -- Up-to-date symlink: /home/shivam/so100/install/so100_simulation/share/so100_simulation/local_setup.bash
+[0.172s] -- Up-to-date symlink: /home/shivam/so100/install/so100_simulation/share/so100_simulation/local_setup.sh
+[0.172s] -- Up-to-date symlink: /home/shivam/so100/install/so100_simulation/share/so100_simulation/local_setup.zsh
+[0.172s] -- Up-to-date symlink: /home/shivam/so100/install/so100_simulation/share/so100_simulation/local_setup.dsv
+[0.172s] -- Symlinking: /home/shivam/so100/install/so100_simulation/share/so100_simulation/package.dsv
+[0.174s] -- Up-to-date symlink: /home/shivam/so100/install/so100_simulation/share/ament_index/resource_index/packages/so100_simulation
+[0.174s] -- Up-to-date symlink: /home/shivam/so100/install/so100_simulation/share/so100_simulation/cmake/so100_simulationConfig.cmake
+[0.175s] -- Up-to-date symlink: /home/shivam/so100/install/so100_simulation/share/so100_simulation/cmake/so100_simulationConfig-version.cmake
+[0.175s] -- Up-to-date symlink: /home/shivam/so100/install/so100_simulation/share/so100_simulation/package.xml
+[0.178s] Invoked command in '/home/shivam/so100/build/so100_simulation' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /home/shivam/.local/bin/cmake --install /home/shivam/so100/build/so100_simulation

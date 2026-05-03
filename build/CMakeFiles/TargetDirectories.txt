@@ -1,0 +1,9 @@
+/home/shivam/so100/build/CMakeFiles/uninstall.dir
+/home/shivam/so100/build/CMakeFiles/so100_simulation_uninstall.dir
+/home/shivam/so100/build/CMakeFiles/test.dir
+/home/shivam/so100/build/CMakeFiles/edit_cache.dir
+/home/shivam/so100/build/CMakeFiles/rebuild_cache.dir
+/home/shivam/so100/build/CMakeFiles/list_install_components.dir
+/home/shivam/so100/build/CMakeFiles/install.dir
+/home/shivam/so100/build/CMakeFiles/install/local.dir
+/home/shivam/so100/build/CMakeFiles/install/strip.dir

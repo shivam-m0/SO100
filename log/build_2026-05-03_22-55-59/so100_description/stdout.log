@@ -1,0 +1,66 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done (0.6s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/shivam/so100/build/so100_description
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/shivam/so100/install/so100_description/share/so100_description/urdf/assets/Base.stl
+-- Symlinking: /home/shivam/so100/install/so100_description/share/so100_description/urdf/assets/Base_Motor.stl
+-- Symlinking: /home/shivam/so100/install/so100_description/share/so100_description/urdf/assets/Fixed_Jaw.stl
+-- Symlinking: /home/shivam/so100/install/so100_description/share/so100_description/urdf/assets/Fixed_Jaw_Motor.stl
+-- Symlinking: /home/shivam/so100/install/so100_description/share/so100_description/urdf/assets/Lower_Arm.stl
+-- Symlinking: /home/shivam/so100/install/so100_description/share/so100_description/urdf/assets/Lower_Arm_Motor.stl
+-- Symlinking: /home/shivam/so100/install/so100_description/share/so100_description/urdf/assets/Moving_Jaw.stl
+-- Symlinking: /home/shivam/so100/install/so100_description/share/so100_description/urdf/assets/Rotation_Pitch.stl
+-- Symlinking: /home/shivam/so100/install/so100_description/share/so100_description/urdf/assets/Rotation_Pitch_Motor.stl
+-- Symlinking: /home/shivam/so100/install/so100_description/share/so100_description/urdf/assets/Upper_Arm.stl
+-- Symlinking: /home/shivam/so100/install/so100_description/share/so100_description/urdf/assets/Upper_Arm_Motor.stl
+-- Symlinking: /home/shivam/so100/install/so100_description/share/so100_description/urdf/assets/Wrist_Pitch_Roll.stl
+-- Symlinking: /home/shivam/so100/install/so100_description/share/so100_description/urdf/assets/Wrist_Pitch_Roll_Motor.stl
+-- Symlinking: /home/shivam/so100/install/so100_description/share/so100_description/urdf/so100.urdf
+-- Symlinking: /home/shivam/so100/install/so100_description/share/so100_description/rviz/so100.rviz
+-- Up-to-date symlink: /home/shivam/so100/install/so100_description/share/so100_description/urdf/assets/Base.stl
+-- Up-to-date symlink: /home/shivam/so100/install/so100_description/share/so100_description/urdf/assets/Base_Motor.stl
+-- Up-to-date symlink: /home/shivam/so100/install/so100_description/share/so100_description/urdf/assets/Fixed_Jaw.stl
+-- Up-to-date symlink: /home/shivam/so100/install/so100_description/share/so100_description/urdf/assets/Fixed_Jaw_Motor.stl
+-- Up-to-date symlink: /home/shivam/so100/install/so100_description/share/so100_description/urdf/assets/Lower_Arm.stl
+-- Up-to-date symlink: /home/shivam/so100/install/so100_description/share/so100_description/urdf/assets/Lower_Arm_Motor.stl
+-- Up-to-date symlink: /home/shivam/so100/install/so100_description/share/so100_description/urdf/assets/Moving_Jaw.stl
+-- Up-to-date symlink: /home/shivam/so100/install/so100_description/share/so100_description/urdf/assets/Rotation_Pitch.stl
+-- Up-to-date symlink: /home/shivam/so100/install/so100_description/share/so100_description/urdf/assets/Rotation_Pitch_Motor.stl
+-- Up-to-date symlink: /home/shivam/so100/install/so100_description/share/so100_description/urdf/assets/Upper_Arm.stl
+-- Up-to-date symlink: /home/shivam/so100/install/so100_description/share/so100_description/urdf/assets/Upper_Arm_Motor.stl
+-- Up-to-date symlink: /home/shivam/so100/install/so100_description/share/so100_description/urdf/assets/Wrist_Pitch_Roll.stl
+-- Up-to-date symlink: /home/shivam/so100/install/so100_description/share/so100_description/urdf/assets/Wrist_Pitch_Roll_Motor.stl
+-- Symlinking: /home/shivam/so100/install/so100_description/share/ament_index/resource_index/package_run_dependencies/so100_description
+-- Symlinking: /home/shivam/so100/install/so100_description/share/ament_index/resource_index/parent_prefix_path/so100_description
+-- Symlinking: /home/shivam/so100/install/so100_description/share/so100_description/environment/ament_prefix_path.sh
+-- Symlinking: /home/shivam/so100/install/so100_description/share/so100_description/environment/ament_prefix_path.dsv
+-- Symlinking: /home/shivam/so100/install/so100_description/share/so100_description/environment/path.sh
+-- Symlinking: /home/shivam/so100/install/so100_description/share/so100_description/environment/path.dsv
+-- Symlinking: /home/shivam/so100/install/so100_description/share/so100_description/local_setup.bash
+-- Symlinking: /home/shivam/so100/install/so100_description/share/so100_description/local_setup.sh
+-- Symlinking: /home/shivam/so100/install/so100_description/share/so100_description/local_setup.zsh
+-- Symlinking: /home/shivam/so100/install/so100_description/share/so100_description/local_setup.dsv
+-- Symlinking: /home/shivam/so100/install/so100_description/share/so100_description/package.dsv
+-- Symlinking: /home/shivam/so100/install/so100_description/share/ament_index/resource_index/packages/so100_description
+-- Symlinking: /home/shivam/so100/install/so100_description/share/so100_description/cmake/so100_descriptionConfig.cmake
+-- Symlinking: /home/shivam/so100/install/so100_description/share/so100_description/cmake/so100_descriptionConfig-version.cmake
+-- Symlinking: /home/shivam/so100/install/so100_description/share/so100_description/package.xml

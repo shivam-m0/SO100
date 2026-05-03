@@ -1,0 +1,12 @@
+digraph G {
+"upper_arm" -> "lower_arm"[label=" Broadcaster: default_authority\nAverage rate: 10.2\nBuffer length: 5.0\nMost recent transform: 1777816234.456512\nOldest transform: 1777816229.456604\n"];
+"shoulder" -> "upper_arm"[label=" Broadcaster: default_authority\nAverage rate: 10.2\nBuffer length: 5.0\nMost recent transform: 1777816234.456512\nOldest transform: 1777816229.456604\n"];
+"gripper" -> "jaw"[label=" Broadcaster: default_authority\nAverage rate: 10.2\nBuffer length: 5.0\nMost recent transform: 1777816234.456512\nOldest transform: 1777816229.456604\n"];
+"wrist" -> "gripper"[label=" Broadcaster: default_authority\nAverage rate: 10.2\nBuffer length: 5.0\nMost recent transform: 1777816234.456512\nOldest transform: 1777816229.456604\n"];
+"base" -> "shoulder"[label=" Broadcaster: default_authority\nAverage rate: 10.2\nBuffer length: 5.0\nMost recent transform: 1777816234.456512\nOldest transform: 1777816229.456604\n"];
+"lower_arm" -> "wrist"[label=" Broadcaster: default_authority\nAverage rate: 10.2\nBuffer length: 5.0\nMost recent transform: 1777816234.456512\nOldest transform: 1777816229.456604\n"];
+edge [style=invis];
+ subgraph cluster_legend { style=bold; color=black; label ="view_frames Result";
+"Recorded at time: 1777816234.4674513"[ shape=plaintext ] ;
+}->"base";
+}

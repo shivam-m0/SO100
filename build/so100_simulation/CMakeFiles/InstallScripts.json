@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/shivam/so100/build/so100_simulation/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

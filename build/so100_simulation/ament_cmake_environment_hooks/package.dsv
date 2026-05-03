@@ -1,0 +1,4 @@
+source;share/so100_simulation/local_setup.bash
+source;share/so100_simulation/local_setup.dsv
+source;share/so100_simulation/local_setup.sh
+source;share/so100_simulation/local_setup.zsh
