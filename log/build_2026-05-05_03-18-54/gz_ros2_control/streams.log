@@ -1,0 +1,66 @@
+[0.016s] Invoking command in '/home/shivam/so100/build/gz_ros2_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/shivam/.local/bin/cmake --build /home/shivam/so100/build/gz_ros2_control -- -j12 -l12
+[0.138s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.138s]   Compatibility with CMake < 3.10 will be removed from a future version of
+[0.138s]   CMake.
+[0.138s] 
+[0.139s]   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+[0.139s]   to tell CMake that the project requires at least <min> but has been updated
+[0.139s]   to work with policies introduced by <max> or earlier.
+[0.139s] 
+[0.139s] [0m
+[0.149s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.424s] -- Found ament_index_cpp: 1.4.1 (/opt/ros/humble/share/ament_index_cpp/cmake)
+[0.425s] -- Found controller_manager: 2.53.1 (/opt/ros/humble/share/controller_manager/cmake)
+[0.482s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.486s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.497s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.511s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.529s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.824s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.826s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.858s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.870s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.897s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.911s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.927s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.060s] -- Found yaml_cpp_vendor: 8.0.2 (/opt/ros/humble/share/yaml_cpp_vendor/cmake)
+[1.066s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.179s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.180s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.181s] -- Configured cppcheck include dirs: /home/shivam/so100/src/gz_ros2_control/gz_ros2_control/include
+[1.181s] -- Configured cppcheck exclude dirs and/or files: 
+[1.182s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.183s] -- Configured cpplint exclude dirs and/or files: 
+[1.184s] -- Added test 'lint_cmake' to check CMake code style
+[1.186s] -- Added test 'uncrustify' to check C / C++ code style
+[1.186s] -- Configured uncrustify additional arguments: 
+[1.187s] -- Added test 'xmllint' to check XML markup files
+[1.190s] -- Configuring done (1.1s)
+[1.226s] -- Generating done (0.0s)
+[1.235s] -- Build files have been written to: /home/shivam/so100/build/gz_ros2_control
+[1.269s] [ 16%] [32mBuilding CXX object CMakeFiles/gz_hardware_plugins.dir/src/gz_system.cpp.o[0m
+[1.297s] [ 33%] [32mBuilding CXX object CMakeFiles/gz_ros2_control-system.dir/src/gz_ros2_control_plugin.cpp.o[0m
+[1.306s] [ 50%] [32mBuilding CXX object CMakeFiles/ign_ros2_control-system.dir/src/gz_ros2_control_plugin.cpp.o[0m
+[1.401s] In file included from [01m[K/home/shivam/so100/src/gz_ros2_control/gz_ros2_control/include/gz_ros2_control/gz_system.hpp:24[m[K,
+[1.401s]                  from [01m[K/home/shivam/so100/src/gz_ros2_control/gz_ros2_control/src/gz_system.cpp:15[m[K:
+[1.401s] [01m[K/home/shivam/so100/src/gz_ros2_control/gz_ros2_control/include/gz_ros2_control/gz_system_interface.hpp:28:10:[m[K [01;31m[Kfatal error: [m[Kignition/gazebo/System.hh: No such file or directory
+[1.401s]    28 | #include [01;31m[K<ignition/gazebo/System.hh>[m[K
+[1.401s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.401s] compilation terminated.
+[1.405s] gmake[2]: *** [CMakeFiles/gz_hardware_plugins.dir/build.make:79: CMakeFiles/gz_hardware_plugins.dir/src/gz_system.cpp.o] Error 1
+[1.405s] gmake[1]: *** [CMakeFiles/Makefile2:191: CMakeFiles/gz_hardware_plugins.dir/all] Error 2
+[1.405s] gmake[1]: *** Waiting for unfinished jobs....
+[1.516s] [01m[K/home/shivam/so100/src/gz_ros2_control/gz_ros2_control/src/gz_ros2_control_plugin.cpp:35:10:[m[K [01;31m[Kfatal error: [m[Kignition/gazebo/components/Joint.hh: No such file or directory
+[1.516s]    35 | #include [01;31m[K<ignition/gazebo/components/Joint.hh>[m[K
+[1.516s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.516s] compilation terminated.
+[1.518s] gmake[2]: *** [CMakeFiles/ign_ros2_control-system.dir/build.make:79: CMakeFiles/ign_ros2_control-system.dir/src/gz_ros2_control_plugin.cpp.o] Error 1
+[1.518s] gmake[1]: *** [CMakeFiles/Makefile2:223: CMakeFiles/ign_ros2_control-system.dir/all] Error 2
+[1.529s] [01m[K/home/shivam/so100/src/gz_ros2_control/gz_ros2_control/src/gz_ros2_control_plugin.cpp:35:10:[m[K [01;31m[Kfatal error: [m[Kignition/gazebo/components/Joint.hh: No such file or directory
+[1.530s]    35 | #include [01;31m[K<ignition/gazebo/components/Joint.hh>[m[K
+[1.530s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.530s] compilation terminated.
+[1.531s] gmake[2]: *** [CMakeFiles/gz_ros2_control-system.dir/build.make:79: CMakeFiles/gz_ros2_control-system.dir/src/gz_ros2_control_plugin.cpp.o] Error 1
+[1.532s] gmake[1]: *** [CMakeFiles/Makefile2:159: CMakeFiles/gz_ros2_control-system.dir/all] Error 2
+[1.532s] gmake: *** [Makefile:146: all] Error 2
+[1.535s] Invoked command in '/home/shivam/so100/build/gz_ros2_control' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/shivam/.local/bin/cmake --build /home/shivam/so100/build/gz_ros2_control -- -j12 -l12

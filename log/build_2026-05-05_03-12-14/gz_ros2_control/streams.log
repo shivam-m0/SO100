@@ -1,0 +1,46 @@
+[0.017s] Invoking command in '/home/shivam/so100/build/gz_ros2_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/shivam/.local/bin/cmake --build /home/shivam/so100/build/gz_ros2_control -- -j12 -l12
+[0.132s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.132s]   Compatibility with CMake < 3.10 will be removed from a future version of
+[0.132s]   CMake.
+[0.132s] 
+[0.132s]   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+[0.133s]   to tell CMake that the project requires at least <min> but has been updated
+[0.133s]   to work with policies introduced by <max> or earlier.
+[0.133s] 
+[0.133s] [0m
+[0.144s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.418s] -- Found ament_index_cpp: 1.4.1 (/opt/ros/humble/share/ament_index_cpp/cmake)
+[0.419s] -- Found controller_manager: 2.53.1 (/opt/ros/humble/share/controller_manager/cmake)
+[0.470s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.474s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.482s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.496s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.515s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.812s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.814s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.848s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.862s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.889s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.901s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.917s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.049s] -- Found yaml_cpp_vendor: 8.0.2 (/opt/ros/humble/share/yaml_cpp_vendor/cmake)
+[1.062s] [31mCMake Error at CMakeLists.txt:40 (find_package):
+[1.062s]   By not providing "Findignition-gazebo6.cmake" in CMAKE_MODULE_PATH this
+[1.062s]   project has asked CMake to find a package configuration file provided by
+[1.062s]   "ignition-gazebo6", but CMake did not find one.
+[1.062s] 
+[1.062s]   Could not find a package configuration file provided by "ignition-gazebo6"
+[1.062s]   with any of the following names:
+[1.062s] 
+[1.062s]     ignition-gazebo6Config.cmake
+[1.062s]     ignition-gazebo6-config.cmake
+[1.062s] 
+[1.062s]   Add the installation prefix of "ignition-gazebo6" to CMAKE_PREFIX_PATH or
+[1.062s]   set "ignition-gazebo6_DIR" to a directory containing one of the above
+[1.062s]   files.  If "ignition-gazebo6" provides a separate development package or
+[1.063s]   SDK, be sure it has been installed.
+[1.063s] 
+[1.063s] [0m
+[1.063s] -- Configuring incomplete, errors occurred!
+[1.070s] gmake: *** [Makefile:325: cmake_check_build_system] Error 1
+[1.072s] Invoked command in '/home/shivam/so100/build/gz_ros2_control' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/shivam/.local/bin/cmake --build /home/shivam/so100/build/gz_ros2_control -- -j12 -l12

@@ -1,0 +1,375 @@
+[0.000000] (-) TimerEvent: {}
+[0.000368] (-) JobUnselected: {'identifier': 'gz_ros2_control_demos'}
+[0.000890] (-) JobUnselected: {'identifier': 'gz_ros2_control_tests'}
+[0.001071] (-) JobUnselected: {'identifier': 'ign_ros2_control'}
+[0.001189] (-) JobUnselected: {'identifier': 'ign_ros2_control_demos'}
+[0.001221] (-) JobUnselected: {'identifier': 'so100_description'}
+[0.001261] (-) JobUnselected: {'identifier': 'so100_simulation'}
+[0.001313] (gz_ros2_control) JobQueued: {'identifier': 'gz_ros2_control', 'dependencies': OrderedDict()}
+[0.001445] (gz_ros2_control) JobStarted: {'identifier': 'gz_ros2_control'}
+[0.010511] (gz_ros2_control) JobProgress: {'identifier': 'gz_ros2_control', 'progress': 'cmake'}
+[0.011625] (gz_ros2_control) Command: {'cmd': ['/home/shivam/.local/bin/cmake', '/home/shivam/so100/src/gz_ros2_control/gz_ros2_control', '-DCMAKE_POLICY_VERSION_MINIMUM=3.5', '-DCMAKE_INSTALL_PREFIX=/home/shivam/so100/install/gz_ros2_control'], 'cwd': '/home/shivam/so100/build/gz_ros2_control', 'env': OrderedDict([('GZ_SIM_SYSTEM_PLUGIN_PATH', ':/opt/ros/humble/lib:/opt/ros/humble/lib'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GZ_SIM_RESOURCE_PATH', ':/home/shivam/so100/install/so100_description/share'), ('LANGUAGE', 'en_IN:en'), ('USER', 'shivam'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/ros/humble/lib'), ('HOME', '/home/shivam'), ('OLDPWD', '/home/shivam/so100'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1242'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/shivam/so100/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'shivam'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'shivam'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/shivam/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/shivam-pc:@/tmp/.ICE-unix/1214,unix/shivam-pc:/tmp/.ICE-unix/1214'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/bc5e3bde_0037_4e4f_92ee_869173a6004b'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.108'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/shivam/so100/install/so100_simulation:/home/shivam/so100/install/so100_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('IGN_GAZEBO_SYSTEM_PLUGIN_PATH', '/opt/ros/humble/lib'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GZ_VERSION', '8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/shivam/so100/build/gz_ros2_control'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/shivam/so100/install/so100_simulation:/home/shivam/so100/install/so100_description:/opt/ros/humble')]), 'shell': False}
+[0.099793] (-) TimerEvent: {}
+[0.184658] (gz_ros2_control) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.199901] (-) TimerEvent: {}
+[0.278005] (gz_ros2_control) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.291072] (gz_ros2_control) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.300020] (-) TimerEvent: {}
+[0.375489] (gz_ros2_control) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.400175] (-) TimerEvent: {}
+[0.404950] (gz_ros2_control) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.405582] (gz_ros2_control) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.406756] (gz_ros2_control) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.430291] (gz_ros2_control) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.500340] (-) TimerEvent: {}
+[0.559469] (gz_ros2_control) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.591069] (gz_ros2_control) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.591496] (gz_ros2_control) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.592628] (gz_ros2_control) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.600504] (-) TimerEvent: {}
+[0.604950] (gz_ros2_control) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.700674] (-) TimerEvent: {}
+[0.801164] (-) TimerEvent: {}
+[0.809056] (gz_ros2_control) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter\n'}
+[0.901404] (-) TimerEvent: {}
+[0.930334] (gz_ros2_control) StdoutLine: {'line': b'-- Found ament_index_cpp: 1.4.1 (/opt/ros/humble/share/ament_index_cpp/cmake)\n'}
+[0.933458] (gz_ros2_control) StdoutLine: {'line': b'-- Found controller_manager: 2.53.1 (/opt/ros/humble/share/controller_manager/cmake)\n'}
+[1.001544] (-) TimerEvent: {}
+[1.007164] (gz_ros2_control) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.015606] (gz_ros2_control) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.030878] (gz_ros2_control) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.051993] (gz_ros2_control) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.079298] (gz_ros2_control) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.101700] (-) TimerEvent: {}
+[1.202139] (-) TimerEvent: {}
+[1.302576] (-) TimerEvent: {}
+[1.403141] (-) TimerEvent: {}
+[1.432567] (gz_ros2_control) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.436666] (gz_ros2_control) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.486345] (gz_ros2_control) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[1.503281] (-) TimerEvent: {}
+[1.559568] (gz_ros2_control) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")\n'}
+[1.565511] (gz_ros2_control) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[1.594980] (gz_ros2_control) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include\n'}
+[1.601780] (gz_ros2_control) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[1.603368] (-) TimerEvent: {}
+[1.615666] (gz_ros2_control) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[1.631921] (gz_ros2_control) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.644641] (gz_ros2_control) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.703551] (-) TimerEvent: {}
+[1.734282] (gz_ros2_control) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.736732] (gz_ros2_control) StdoutLine: {'line': b'-- Found Threads: TRUE\n'}
+[1.803683] (-) TimerEvent: {}
+[1.893282] (gz_ros2_control) StdoutLine: {'line': b'-- Found yaml_cpp_vendor: 8.0.2 (/opt/ros/humble/share/yaml_cpp_vendor/cmake)\n'}
+[1.899906] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-sim8 -- found version 8.11.0\n'}
+[1.903797] (-) TimerEvent: {}
+[1.911135] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of gz-sim8\n'}
+[1.913918] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for sdformat14 -- found version 14.9.0\n'}
+[1.914227] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of sdformat14\n'}
+[1.921354] (gz_ros2_control) StdoutLine: {'line': b"-- Checking for module 'tinyxml2'\n"}
+[1.936581] (gz_ros2_control) StdoutLine: {'line': b'--   Found tinyxml2, version 9.0.0\n'}
+[1.986670] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.6.0\n'}
+[1.986986] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of gz-math7\n'}
+[1.990288] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.1\n'}
+[1.990570] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of gz-utils2\n'}
+[1.994268] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.1\n'}
+[1.994566] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of gz-utils2\n'}
+[1.994683] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for <gz-utils2> component [cli]\n'}
+[1.998093] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-utils2-cli -- found version 2.2.1\n'}
+[1.998343] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of gz-utils2-cli\n'}
+[2.003935] (-) TimerEvent: {}
+[2.004275] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-plugin2 -- found version 2.0.4\n'}
+[2.004457] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of gz-plugin2\n'}
+[2.005005] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.1\n'}
+[2.005986] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for <gz-plugin2> component [loader]\n'}
+[2.009259] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-plugin2-loader -- found version 2.0.4\n'}
+[2.009615] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of gz-plugin2-loader\n'}
+[2.010677] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for <gz-plugin2> component [register]\n'}
+[2.013434] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-plugin2-register -- found version 2.0.4\n'}
+[2.013666] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of gz-plugin2-register\n'}
+[2.018041] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-transport13 -- found version 13.5.0\n'}
+[2.018257] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of gz-transport13\n'}
+[2.053972] (gz_ros2_control) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4")\n'}
+[2.068144] (gz_ros2_control) StdoutLine: {'line': b'-- Config-file not installed for ZeroMQ -- checking for pkg-config\n'}
+[2.075146] (gz_ros2_control) StdoutLine: {'line': b"-- Checking for module 'libzmq >= 4'\n"}
+[2.092725] (gz_ros2_control) StdoutLine: {'line': b'--   Found libzmq, version 4.3.4\n'}
+[2.104052] (-) TimerEvent: {}
+[2.143508] (gz_ros2_control) StdoutLine: {'line': b'-- Found ZeroMQ: TRUE (Required is at least version "4")\n'}
+[2.153343] (gz_ros2_control) StdoutLine: {'line': b"-- Checking for module 'uuid'\n"}
+[2.170923] (gz_ros2_control) StdoutLine: {'line': b'--   Found uuid, version 2.37.2\n'}
+[2.204225] (-) TimerEvent: {}
+[2.224017] (gz_ros2_control) StdoutLine: {'line': b'-- Found UUID: TRUE\n'}
+[2.224840] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.1\n'}
+[2.228205] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-msgs10 -- found version 10.3.2\n'}
+[2.228527] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of gz-msgs10\n'}
+[2.258678] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.1\n'}
+[2.259259] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.6.0\n'}
+[2.272283] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for <gz-transport13> component [log]\n'}
+[2.276706] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-transport13-log -- found version 13.5.0\n'}
+[2.277095] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of gz-transport13-log\n'}
+[2.278239] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for <gz-transport13> component [parameters]\n'}
+[2.281254] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-transport13-parameters -- found version 13.5.0\n'}
+[2.281649] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of gz-transport13-parameters\n'}
+[2.283885] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-msgs10 -- found version 10.3.2\n'}
+[2.287390] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-common5 -- found version 5.8.0\n'}
+[2.287703] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of gz-common5\n'}
+[2.288290] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.1\n'}
+[2.289051] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[2.291509] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[2.294107] (gz_ros2_control) StdoutLine: {'line': b'-- Found DL: TRUE\n'}
+[2.304355] (-) TimerEvent: {}
+[2.305772] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for <gz-common5> component [av]\n'}
+[2.309944] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-common5-av -- found version 5.8.0\n'}
+[2.310314] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of gz-common5-av\n'}
+[2.317765] (gz_ros2_control) StdoutLine: {'line': b"-- Checking for module 'libswscale'\n"}
+[2.333906] (gz_ros2_control) StdoutLine: {'line': b'--   Found libswscale, version 5.9.100\n'}
+[2.378608] (gz_ros2_control) StdoutLine: {'line': b'-- Found SWSCALE: TRUE\n'}
+[2.387745] (gz_ros2_control) StdoutLine: {'line': b"-- Checking for module 'libavdevice >= 56.4.100'\n"}
+[2.404513] (-) TimerEvent: {}
+[2.405981] (gz_ros2_control) StdoutLine: {'line': b'--   Found libavdevice, version 58.13.100\n'}
+[2.456604] (gz_ros2_control) StdoutLine: {'line': b'-- Found AVDEVICE: TRUE (Required is at least version "56.4.100")\n'}
+[2.465679] (gz_ros2_control) StdoutLine: {'line': b"-- Checking for module 'libavformat'\n"}
+[2.482667] (gz_ros2_control) StdoutLine: {'line': b'--   Found libavformat, version 58.76.100\n'}
+[2.504652] (-) TimerEvent: {}
+[2.534000] (gz_ros2_control) StdoutLine: {'line': b'-- Found AVFORMAT: TRUE\n'}
+[2.543635] (gz_ros2_control) StdoutLine: {'line': b"-- Checking for module 'libavcodec'\n"}
+[2.563150] (gz_ros2_control) StdoutLine: {'line': b'--   Found libavcodec, version 58.134.100\n'}
+[2.604803] (-) TimerEvent: {}
+[2.609891] (gz_ros2_control) StdoutLine: {'line': b'-- Found AVCODEC: TRUE\n'}
+[2.618830] (gz_ros2_control) StdoutLine: {'line': b"-- Checking for module 'libavutil'\n"}
+[2.637434] (gz_ros2_control) StdoutLine: {'line': b'--   Found libavutil, version 56.70.100\n'}
+[2.682450] (gz_ros2_control) StdoutLine: {'line': b'-- Found AVUTIL: TRUE\n'}
+[2.684037] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for <gz-common5> component [events]\n'}
+[2.687747] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-common5-events -- found version 5.8.0\n'}
+[2.688063] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of gz-common5-events\n'}
+[2.688635] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.6.0\n'}
+[2.689988] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for <gz-common5> component [graphics]\n'}
+[2.693324] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-common5-graphics -- found version 5.8.0\n'}
+[2.693567] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of gz-common5-graphics\n'}
+[2.694361] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.6.0\n'}
+[2.704531] (gz_ros2_control) StdoutLine: {'line': b'-- Found GzAssimp: TRUE (found version "5.2.0")\n'}
+[2.704825] (-) TimerEvent: {}
+[2.705910] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for <gz-common5> component [io]\n'}
+[2.709421] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-common5-io -- found version 5.8.0\n'}
+[2.709759] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of gz-common5-io\n'}
+[2.711119] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for <gz-common5> component [profiler]\n'}
+[2.714553] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-common5-profiler -- found version 5.8.0\n'}
+[2.714815] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of gz-common5-profiler\n'}
+[2.719878] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-fuel_tools9 -- found version 9.1.1\n'}
+[2.720213] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of gz-fuel_tools9\n'}
+[2.805004] (-) TimerEvent: {}
+[2.829205] (gz_ros2_control) StdoutLine: {'line': b'-- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")\n'}
+[2.834157] (gz_ros2_control) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at /usr/lib/x86_64-linux-gnu/cmake/jsoncpp/jsoncppConfig.cmake:2 (cmake_policy):\n'}
+[2.834442] (gz_ros2_control) StderrLine: {'line': b'  Compatibility with CMake < 3.10 will be removed from a future version of\n'}
+[2.834584] (gz_ros2_control) StderrLine: {'line': b'  CMake.\n'}
+[2.834730] (gz_ros2_control) StderrLine: {'line': b'\n'}
+[2.834897] (gz_ros2_control) StderrLine: {'line': b'  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax\n'}
+[2.835022] (gz_ros2_control) StderrLine: {'line': b'  to tell CMake that the project requires at least <min> but has been updated\n'}
+[2.835146] (gz_ros2_control) StderrLine: {'line': b'  to work with policies introduced by <max> or earlier.\n'}
+[2.835265] (gz_ros2_control) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[2.835381] (gz_ros2_control) StderrLine: {'line': b'  /usr/share/cmake/gz-cmake3/cmake3/FindJSONCPP.cmake:34 (find_package)\n'}
+[2.835497] (gz_ros2_control) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/gz-fuel_tools9/gz-fuel_tools9-config.cmake:94 (find_package)\n'}
+[2.835625] (gz_ros2_control) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/gz-sim8/gz-sim8-config.cmake:97 (find_package)\n'}
+[2.835758] (gz_ros2_control) StderrLine: {'line': b'  CMakeLists.txt:20 (find_package)\n'}
+[2.835881] (gz_ros2_control) StderrLine: {'line': b'\n'}
+[2.835995] (gz_ros2_control) StderrLine: {'line': b'\x1b[0m\n'}
+[2.844917] (gz_ros2_control) StdoutLine: {'line': b"-- Checking for module 'jsoncpp'\n"}
+[2.865101] (gz_ros2_control) StdoutLine: {'line': b'--   Found jsoncpp, version 1.9.5\n'}
+[2.905147] (-) TimerEvent: {}
+[2.912949] (gz_ros2_control) StdoutLine: {'line': b'-- Found JSONCPP: TRUE\n'}
+[2.922346] (gz_ros2_control) StdoutLine: {'line': b"-- Checking for module 'libzip'\n"}
+[2.940610] (gz_ros2_control) StdoutLine: {'line': b'--   Found libzip, version 1.7.3\n'}
+[2.986372] (gz_ros2_control) StdoutLine: {'line': b'-- Found ZIP: TRUE\n'}
+[2.987093] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.1\n'}
+[2.987701] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-common5 -- found version 5.8.0\n'}
+[2.988015] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of gz-common5\n'}
+[2.988577] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.1\n'}
+[2.988888] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[2.989011] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[3.000996] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for <gz-common5> component [testing]\n'}
+[3.004461] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-common5-testing -- found version 5.8.0\n'}
+[3.004795] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of gz-common5-testing\n'}
+[3.005212] (-) TimerEvent: {}
+[3.007128] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.6.0\n'}
+[3.007758] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-msgs10 -- found version 10.3.2\n'}
+[3.012439] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-gui8 -- found version 8.4.0\n'}
+[3.012741] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of gz-gui8\n'}
+[3.049074] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.1\n'}
+[3.049694] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.6.0\n'}
+[3.050592] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-common5 -- found version 5.8.0\n'}
+[3.051386] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-plugin2 -- found version 2.0.4\n'}
+[3.052331] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-transport13 -- found version 13.5.0\n'}
+[3.055912] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-rendering8 -- found version 8.2.3\n'}
+[3.056330] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of gz-rendering8\n'}
+[3.057001] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.6.0\n'}
+[3.057334] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of gz-math7\n'}
+[3.057973] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.1\n'}
+[3.058276] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for <gz-math7> component [eigen3]\n'}
+[3.061757] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-math7-eigen3 -- found version 7.6.0\n'}
+[3.062024] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of gz-math7-eigen3\n'}
+[3.072925] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-common5 -- found version 5.8.0\n'}
+[3.073215] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of gz-common5\n'}
+[3.073549] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.1\n'}
+[3.073936] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[3.074145] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[3.085589] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for <gz-common5> component [graphics]\n'}
+[3.085883] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for <gz-common5> component [events]\n'}
+[3.086001] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for <gz-common5> component [geospatial]\n'}
+[3.088511] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-common5-geospatial -- found version 5.8.0\n'}
+[3.088916] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of gz-common5-geospatial\n'}
+[3.089415] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.6.0\n'}
+[3.090250] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-common5 -- found version 5.8.0\n'}
+[3.092333] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-plugin2 -- found version 2.0.4\n'}
+[3.092631] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of gz-plugin2\n'}
+[3.093169] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.1\n'}
+[3.093468] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for <gz-plugin2> component [all]\n'}
+[3.096595] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for all libraries of gz-plugin2 -- found version 2.0.4\n'}
+[3.097604] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-plugin2 -- found version 2.0.4\n'}
+[3.100207] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.1\n'}
+[3.105322] (-) TimerEvent: {}
+[3.119052] (gz_ros2_control) StdoutLine: {'line': b'-- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: OpenGL\n'}
+[3.121792] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-msgs10 -- found version 10.3.2\n'}
+[3.162297] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-physics7 -- found version 7.6.0\n'}
+[3.162564] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of gz-physics7\n'}
+[3.163099] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-common5 -- found version 5.8.0\n'}
+[3.163698] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.6.0\n'}
+[3.164408] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-plugin2 -- found version 2.0.4\n'}
+[3.164978] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.1\n'}
+[3.166808] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for <gz-physics7> component [heightmap]\n'}
+[3.169794] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-physics7-heightmap -- found version 7.6.0\n'}
+[3.169965] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of gz-physics7-heightmap\n'}
+[3.170544] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-common5 -- found version 5.8.0\n'}
+[3.171673] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for <gz-physics7> component [mesh]\n'}
+[3.174580] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-physics7-mesh -- found version 7.6.0\n'}
+[3.175013] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of gz-physics7-mesh\n'}
+[3.175393] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-common5 -- found version 5.8.0\n'}
+[3.176475] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for <gz-physics7> component [sdf]\n'}
+[3.179238] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-physics7-sdf -- found version 7.6.0\n'}
+[3.179456] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of gz-physics7-sdf\n'}
+[3.180210] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for sdformat14 -- found version 14.9.0\n'}
+[3.185246] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-sensors8 -- found version 8.2.2\n'}
+[3.185435] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8\n'}
+[3.205472] (-) TimerEvent: {}
+[3.212427] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.6.0\n'}
+[3.213123] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-common5 -- found version 5.8.0\n'}
+[3.213833] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-transport13 -- found version 13.5.0\n'}
+[3.214514] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-rendering8 -- found version 8.2.3\n'}
+[3.215212] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-msgs10 -- found version 10.3.2\n'}
+[3.215722] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for sdformat14 -- found version 14.9.0\n'}
+[3.216883] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [air_pressure]\n'}
+[3.220037] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-sensors8-air_pressure -- found version 8.2.2\n'}
+[3.220457] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-air_pressure\n'}
+[3.221683] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [air_speed]\n'}
+[3.225176] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-sensors8-air_speed -- found version 8.2.2\n'}
+[3.225515] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-air_speed\n'}
+[3.226760] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [altimeter]\n'}
+[3.229919] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-sensors8-altimeter -- found version 8.2.2\n'}
+[3.230202] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-altimeter\n'}
+[3.231324] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [imu]\n'}
+[3.234417] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-sensors8-imu -- found version 8.2.2\n'}
+[3.234631] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-imu\n'}
+[3.235864] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [force_torque]\n'}
+[3.241017] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-sensors8-force_torque -- found version 8.2.2\n'}
+[3.241409] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-force_torque\n'}
+[3.242617] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [logical_camera]\n'}
+[3.245818] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-sensors8-logical_camera -- found version 8.2.2\n'}
+[3.246200] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-logical_camera\n'}
+[3.247306] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [magnetometer]\n'}
+[3.250197] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-sensors8-magnetometer -- found version 8.2.2\n'}
+[3.250468] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-magnetometer\n'}
+[3.251494] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [navsat]\n'}
+[3.254417] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-sensors8-navsat -- found version 8.2.2\n'}
+[3.254803] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-navsat\n'}
+[3.255908] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [dvl]\n'}
+[3.258930] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-sensors8-dvl -- found version 8.2.2\n'}
+[3.259255] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-dvl\n'}
+[3.259564] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-sensors8 -- found version 8.2.2\n'}
+[3.259863] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8\n'}
+[3.284522] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.6.0\n'}
+[3.284984] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-common5 -- found version 5.8.0\n'}
+[3.285929] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-transport13 -- found version 13.5.0\n'}
+[3.286359] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-rendering8 -- found version 8.2.3\n'}
+[3.287080] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-msgs10 -- found version 10.3.2\n'}
+[3.287616] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for sdformat14 -- found version 14.9.0\n'}
+[3.287949] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [rendering]\n'}
+[3.291100] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-sensors8-rendering -- found version 8.2.2\n'}
+[3.291439] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-rendering\n'}
+[3.293844] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [rendering]\n'}
+[3.294092] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [lidar]\n'}
+[3.296770] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-sensors8-lidar -- found version 8.2.2\n'}
+[3.297116] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-lidar\n'}
+[3.297745] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-sensors8 -- found version 8.2.2\n'}
+[3.299331] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [gpu_lidar]\n'}
+[3.302928] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-sensors8-gpu_lidar -- found version 8.2.2\n'}
+[3.303236] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-gpu_lidar\n'}
+[3.303806] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-sensors8 -- found version 8.2.2\n'}
+[3.305249] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [camera]\n'}
+[3.305535] (-) TimerEvent: {}
+[3.308621] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-sensors8-camera -- found version 8.2.2\n'}
+[3.309001] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-camera\n'}
+[3.309672] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-sensors8 -- found version 8.2.2\n'}
+[3.311167] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [boundingbox_camera]\n'}
+[3.314625] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-sensors8-boundingbox_camera -- found version 8.2.2\n'}
+[3.315305] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-boundingbox_camera\n'}
+[3.316154] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [segmentation_camera]\n'}
+[3.319084] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-sensors8-segmentation_camera -- found version 8.2.2\n'}
+[3.319415] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-segmentation_camera\n'}
+[3.320424] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [depth_camera]\n'}
+[3.323478] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-sensors8-depth_camera -- found version 8.2.2\n'}
+[3.323708] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-depth_camera\n'}
+[3.324455] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-sensors8 -- found version 8.2.2\n'}
+[3.325659] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [rgbd_camera]\n'}
+[3.328650] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-sensors8-rgbd_camera -- found version 8.2.2\n'}
+[3.328965] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-rgbd_camera\n'}
+[3.329458] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-sensors8 -- found version 8.2.2\n'}
+[3.330651] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [thermal_camera]\n'}
+[3.333574] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-sensors8-thermal_camera -- found version 8.2.2\n'}
+[3.333886] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-thermal_camera\n'}
+[3.334321] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-sensors8 -- found version 8.2.2\n'}
+[3.335664] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [wide_angle_camera]\n'}
+[3.338872] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-sensors8-wide_angle_camera -- found version 8.2.2\n'}
+[3.339090] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-wide_angle_camera\n'}
+[3.341871] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-rendering8 -- found version 8.2.3\n'}
+[3.342594] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.6.0\n'}
+[3.343349] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.1\n'}
+[3.369792] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-plugin2 -- found version 2.0.4\n'}
+[3.405774] (-) TimerEvent: {}
+[3.467513] (gz_ros2_control) StdoutLine: {'line': b'-- Configuring done (3.3s)\n'}
+[3.505937] (-) TimerEvent: {}
+[3.517036] (gz_ros2_control) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[3.530285] (gz_ros2_control) StdoutLine: {'line': b'-- Build files have been written to: /home/shivam/so100/build/gz_ros2_control\n'}
+[3.550456] (gz_ros2_control) CommandEnded: {'returncode': 0}
+[3.551539] (gz_ros2_control) JobProgress: {'identifier': 'gz_ros2_control', 'progress': 'build'}
+[3.552729] (gz_ros2_control) Command: {'cmd': ['/home/shivam/.local/bin/cmake', '--build', '/home/shivam/so100/build/gz_ros2_control', '--', '-j12', '-l12'], 'cwd': '/home/shivam/so100/build/gz_ros2_control', 'env': OrderedDict([('GZ_SIM_SYSTEM_PLUGIN_PATH', ':/opt/ros/humble/lib:/opt/ros/humble/lib'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GZ_SIM_RESOURCE_PATH', ':/home/shivam/so100/install/so100_description/share'), ('LANGUAGE', 'en_IN:en'), ('USER', 'shivam'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/ros/humble/lib'), ('HOME', '/home/shivam'), ('OLDPWD', '/home/shivam/so100'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1242'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/shivam/so100/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'shivam'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'shivam'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/shivam/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/shivam-pc:@/tmp/.ICE-unix/1214,unix/shivam-pc:/tmp/.ICE-unix/1214'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/bc5e3bde_0037_4e4f_92ee_869173a6004b'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.108'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/shivam/so100/install/so100_simulation:/home/shivam/so100/install/so100_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('IGN_GAZEBO_SYSTEM_PLUGIN_PATH', '/opt/ros/humble/lib'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GZ_VERSION', '8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/shivam/so100/build/gz_ros2_control'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/shivam/so100/install/so100_simulation:/home/shivam/so100/install/so100_description:/opt/ros/humble')]), 'shell': False}
+[3.606086] (-) TimerEvent: {}
+[3.690410] (gz_ros2_control) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/gz_hardware_plugins.dir/src/gz_system.cpp.o\x1b[0m\n'}
+[3.690880] (gz_ros2_control) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/gz_ros2_control-system.dir/src/gz_ros2_control_plugin.cpp.o\x1b[0m\n'}
+[3.691084] (gz_ros2_control) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/ign_ros2_control-system.dir/src/gz_ros2_control_plugin.cpp.o\x1b[0m\n'}
+[3.706286] (-) TimerEvent: {}
+[3.806830] (-) TimerEvent: {}
+[3.907321] (-) TimerEvent: {}
+[3.923283] (gz_ros2_control) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/shivam/so100/src/gz_ros2_control/gz_ros2_control/include/gz_ros2_control/gz_system.hpp:24\x1b[m\x1b[K,\n'}
+[3.923643] (gz_ros2_control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivam/so100/src/gz_ros2_control/gz_ros2_control/src/gz_system.cpp:15\x1b[m\x1b[K:\n'}
+[3.923840] (gz_ros2_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/shivam/so100/src/gz_ros2_control/gz_ros2_control/include/gz_ros2_control/gz_system_interface.hpp:28:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kignition/gazebo/System.hh: No such file or directory\n'}
+[3.924003] (gz_ros2_control) StderrLine: {'line': b'   28 | #include \x1b[01;31m\x1b[K<ignition/gazebo/System.hh>\x1b[m\x1b[K\n'}
+[3.924156] (gz_ros2_control) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.924303] (gz_ros2_control) StderrLine: {'line': b'compilation terminated.\n'}
+[3.927809] (gz_ros2_control) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/gz_hardware_plugins.dir/build.make:79: CMakeFiles/gz_hardware_plugins.dir/src/gz_system.cpp.o] Error 1\n'}
+[3.928311] (gz_ros2_control) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:191: CMakeFiles/gz_hardware_plugins.dir/all] Error 2\n'}
+[3.928517] (gz_ros2_control) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[3.959455] (gz_ros2_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/shivam/so100/src/gz_ros2_control/gz_ros2_control/src/gz_ros2_control_plugin.cpp:35:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kignition/gazebo/components/Joint.hh: No such file or directory\n'}
+[3.959779] (gz_ros2_control) StderrLine: {'line': b'   35 | #include \x1b[01;31m\x1b[K<ignition/gazebo/components/Joint.hh>\x1b[m\x1b[K\n'}
+[3.959960] (gz_ros2_control) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.960093] (gz_ros2_control) StderrLine: {'line': b'compilation terminated.\n'}
+[3.961183] (gz_ros2_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/shivam/so100/src/gz_ros2_control/gz_ros2_control/src/gz_ros2_control_plugin.cpp:35:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kignition/gazebo/components/Joint.hh: No such file or directory\n'}
+[3.961474] (gz_ros2_control) StderrLine: {'line': b'   35 | #include \x1b[01;31m\x1b[K<ignition/gazebo/components/Joint.hh>\x1b[m\x1b[K\n'}
+[3.961621] (gz_ros2_control) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.962054] (gz_ros2_control) StderrLine: {'line': b'compilation terminated.\n'}
+[3.962186] (gz_ros2_control) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/ign_ros2_control-system.dir/build.make:79: CMakeFiles/ign_ros2_control-system.dir/src/gz_ros2_control_plugin.cpp.o] Error 1\n'}
+[3.962269] (gz_ros2_control) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:223: CMakeFiles/ign_ros2_control-system.dir/all] Error 2\n'}
+[3.963719] (gz_ros2_control) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/gz_ros2_control-system.dir/build.make:79: CMakeFiles/gz_ros2_control-system.dir/src/gz_ros2_control_plugin.cpp.o] Error 1\n'}
+[3.964012] (gz_ros2_control) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:159: CMakeFiles/gz_ros2_control-system.dir/all] Error 2\n'}
+[3.964293] (gz_ros2_control) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[3.967212] (gz_ros2_control) CommandEnded: {'returncode': 2}
+[3.980178] (gz_ros2_control) JobEnded: {'identifier': 'gz_ros2_control', 'rc': 2}
+[3.991386] (-) EventReactorShutdown: {}

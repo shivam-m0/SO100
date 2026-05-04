@@ -1,0 +1,6 @@
+Invoking command in '/home/shivam/so100/build/so100_simulation': CMAKE_PREFIX_PATH=/opt/ros/humble /home/shivam/.local/bin/cmake /home/shivam/so100/src/so100_simulation -DCMAKE_INSTALL_PREFIX=/home/shivam/so100/install/so100_simulation
+Invoked command in '/home/shivam/so100/build/so100_simulation' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /home/shivam/.local/bin/cmake /home/shivam/so100/src/so100_simulation -DCMAKE_INSTALL_PREFIX=/home/shivam/so100/install/so100_simulation
+Invoking command in '/home/shivam/so100/build/so100_simulation': CMAKE_PREFIX_PATH=/opt/ros/humble /home/shivam/.local/bin/cmake --build /home/shivam/so100/build/so100_simulation -- -j12 -l12
+Invoked command in '/home/shivam/so100/build/so100_simulation' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /home/shivam/.local/bin/cmake --build /home/shivam/so100/build/so100_simulation -- -j12 -l12
+Invoking command in '/home/shivam/so100/build/so100_simulation': CMAKE_PREFIX_PATH=/opt/ros/humble /home/shivam/.local/bin/cmake --install /home/shivam/so100/build/so100_simulation
+Invoked command in '/home/shivam/so100/build/so100_simulation' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /home/shivam/.local/bin/cmake --install /home/shivam/so100/build/so100_simulation

@@ -1,0 +1,63 @@
+[0.027s] Invoking command in '/home/shivam/so100/build/gz_ros2_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/shivam/.local/bin/cmake /home/shivam/so100/src/gz_ros2_control/gz_ros2_control -DCMAKE_INSTALL_PREFIX=/home/shivam/so100/install/gz_ros2_control
+[0.134s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.135s]   Compatibility with CMake < 3.10 will be removed from a future version of
+[0.135s]   CMake.
+[0.135s] 
+[0.135s]   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+[0.135s]   to tell CMake that the project requires at least <min> but has been updated
+[0.135s]   to work with policies introduced by <max> or earlier.
+[0.135s] 
+[0.136s] [0m
+[0.266s] -- The C compiler identification is GNU 11.4.0
+[0.418s] -- The CXX compiler identification is GNU 11.4.0
+[0.440s] -- Detecting C compiler ABI info
+[0.574s] -- Detecting C compiler ABI info - done
+[0.606s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.607s] -- Detecting C compile features
+[0.608s] -- Detecting C compile features - done
+[0.628s] -- Detecting CXX compiler ABI info
+[0.732s] -- Detecting CXX compiler ABI info - done
+[0.759s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.760s] -- Detecting CXX compile features
+[0.761s] -- Detecting CXX compile features - done
+[0.775s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.940s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter
+[1.066s] -- Found ament_index_cpp: 1.4.1 (/opt/ros/humble/share/ament_index_cpp/cmake)
+[1.072s] -- Found controller_manager: 2.53.1 (/opt/ros/humble/share/controller_manager/cmake)
+[1.170s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.178s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.195s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.220s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.257s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.694s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.699s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.754s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.826s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")
+[1.833s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.867s] -- Found FastRTPS: /opt/ros/humble/include
+[1.875s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.889s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.907s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.924s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.019s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.021s] -- Found Threads: TRUE
+[2.211s] -- Found yaml_cpp_vendor: 8.0.2 (/opt/ros/humble/share/yaml_cpp_vendor/cmake)
+[2.226s] [31mCMake Error at CMakeLists.txt:40 (find_package):
+[2.226s]   By not providing "Findignition-gazebo6.cmake" in CMAKE_MODULE_PATH this
+[2.226s]   project has asked CMake to find a package configuration file provided by
+[2.226s]   "ignition-gazebo6", but CMake did not find one.
+[2.226s] 
+[2.226s]   Could not find a package configuration file provided by "ignition-gazebo6"
+[2.226s]   with any of the following names:
+[2.226s] 
+[2.227s]     ignition-gazebo6Config.cmake
+[2.227s]     ignition-gazebo6-config.cmake
+[2.227s] 
+[2.227s]   Add the installation prefix of "ignition-gazebo6" to CMAKE_PREFIX_PATH or
+[2.227s]   set "ignition-gazebo6_DIR" to a directory containing one of the above
+[2.227s]   files.  If "ignition-gazebo6" provides a separate development package or
+[2.227s]   SDK, be sure it has been installed.
+[2.227s] 
+[2.227s] [0m
+[2.227s] -- Configuring incomplete, errors occurred!
+[2.240s] Invoked command in '/home/shivam/so100/build/gz_ros2_control' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/shivam/.local/bin/cmake /home/shivam/so100/src/gz_ros2_control/gz_ros2_control -DCMAKE_INSTALL_PREFIX=/home/shivam/so100/install/gz_ros2_control

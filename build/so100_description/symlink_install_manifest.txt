@@ -11,6 +11,7 @@
 /home/shivam/so100/install/so100_description/share/so100_description/urdf/assets/Upper_Arm_Motor.stl
 /home/shivam/so100/install/so100_description/share/so100_description/urdf/assets/Wrist_Pitch_Roll.stl
 /home/shivam/so100/install/so100_description/share/so100_description/urdf/assets/Wrist_Pitch_Roll_Motor.stl
+/home/shivam/so100/install/so100_description/share/so100_description/urdf/so100 copy.urdf
 /home/shivam/so100/install/so100_description/share/so100_description/urdf/so100.urdf
 /home/shivam/so100/install/so100_description/share/so100_description/rviz/so100.rviz
 /home/shivam/so100/install/so100_description/share/so100_description/urdf/assets/Base.stl

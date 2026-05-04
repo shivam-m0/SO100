@@ -1,0 +1,37 @@
+{
+	"cmake" : 
+	{
+		"generator" : 
+		{
+			"multiConfig" : false,
+			"name" : "Unix Makefiles"
+		},
+		"paths" : 
+		{
+			"cmake" : "/home/shivam/.local/lib/python3.10/site-packages/cmake/data/bin/cmake",
+			"cpack" : "/home/shivam/.local/lib/python3.10/site-packages/cmake/data/bin/cpack",
+			"ctest" : "/home/shivam/.local/lib/python3.10/site-packages/cmake/data/bin/ctest",
+			"root" : "/home/shivam/.local/lib/python3.10/site-packages/cmake/data/share/cmake-4.1"
+		},
+		"version" : 
+		{
+			"isDirty" : false,
+			"major" : 4,
+			"minor" : 1,
+			"patch" : 3,
+			"string" : "4.1.3",
+			"suffix" : ""
+		}
+	},
+	"objects" : [],
+	"reply" : 
+	{
+		"client-colcon-cmake" : 
+		{
+			"codemodel-v2" : 
+			{
+				"error" : "no buildsystem generated"
+			}
+		}
+	}
+}

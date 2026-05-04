@@ -1,0 +1,429 @@
+[0.000000] (-) TimerEvent: {}
+[0.000758] (gz_ros2_control) JobQueued: {'identifier': 'gz_ros2_control', 'dependencies': OrderedDict()}
+[0.001108] (so100_description) JobQueued: {'identifier': 'so100_description', 'dependencies': OrderedDict()}
+[0.001325] (so100_simulation) JobQueued: {'identifier': 'so100_simulation', 'dependencies': OrderedDict()}
+[0.001467] (gz_ros2_control_demos) JobQueued: {'identifier': 'gz_ros2_control_demos', 'dependencies': OrderedDict([('gz_ros2_control', '/home/shivam/so100/install/gz_ros2_control')])}
+[0.001532] (ign_ros2_control) JobQueued: {'identifier': 'ign_ros2_control', 'dependencies': OrderedDict([('gz_ros2_control', '/home/shivam/so100/install/gz_ros2_control')])}
+[0.001587] (ign_ros2_control_demos) JobQueued: {'identifier': 'ign_ros2_control_demos', 'dependencies': OrderedDict([('gz_ros2_control', '/home/shivam/so100/install/gz_ros2_control'), ('gz_ros2_control_demos', '/home/shivam/so100/install/gz_ros2_control_demos')])}
+[0.001642] (gz_ros2_control_tests) JobQueued: {'identifier': 'gz_ros2_control_tests', 'dependencies': OrderedDict([('gz_ros2_control', '/home/shivam/so100/install/gz_ros2_control'), ('gz_ros2_control_demos', '/home/shivam/so100/install/gz_ros2_control_demos'), ('ign_ros2_control_demos', '/home/shivam/so100/install/ign_ros2_control_demos')])}
+[0.001876] (gz_ros2_control) JobStarted: {'identifier': 'gz_ros2_control'}
+[0.008457] (so100_description) JobStarted: {'identifier': 'so100_description'}
+[0.013074] (so100_simulation) JobStarted: {'identifier': 'so100_simulation'}
+[0.017868] (gz_ros2_control) JobProgress: {'identifier': 'gz_ros2_control', 'progress': 'cmake'}
+[0.019345] (gz_ros2_control) Command: {'cmd': ['/home/shivam/.local/bin/cmake', '/home/shivam/so100/src/gz_ros2_control/gz_ros2_control', '-DCMAKE_INSTALL_PREFIX=/home/shivam/so100/install/gz_ros2_control'], 'cwd': '/home/shivam/so100/build/gz_ros2_control', 'env': OrderedDict([('GZ_SIM_SYSTEM_PLUGIN_PATH', ':/opt/ros/humble/lib:/opt/ros/humble/lib'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GZ_SIM_RESOURCE_PATH', ':/home/shivam/so100/install/so100_description/share'), ('LANGUAGE', 'en_IN:en'), ('USER', 'shivam'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/ros/humble/lib'), ('HOME', '/home/shivam'), ('OLDPWD', '/home/shivam/so100'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1242'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/shivam/so100/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'shivam'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'shivam'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/shivam/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/shivam-pc:@/tmp/.ICE-unix/1214,unix/shivam-pc:/tmp/.ICE-unix/1214'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/bc5e3bde_0037_4e4f_92ee_869173a6004b'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.108'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/shivam/so100/install/so100_simulation:/home/shivam/so100/install/so100_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('IGN_GAZEBO_SYSTEM_PLUGIN_PATH', '/opt/ros/humble/lib'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GZ_VERSION', '8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/shivam/so100/build/gz_ros2_control'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/shivam/so100/install/so100_simulation:/home/shivam/so100/install/so100_description:/opt/ros/humble')]), 'shell': False}
+[0.023016] (so100_description) JobProgress: {'identifier': 'so100_description', 'progress': 'cmake'}
+[0.023747] (so100_description) JobProgress: {'identifier': 'so100_description', 'progress': 'build'}
+[0.025042] (so100_description) Command: {'cmd': ['/home/shivam/.local/bin/cmake', '--build', '/home/shivam/so100/build/so100_description', '--', '-j12', '-l12'], 'cwd': '/home/shivam/so100/build/so100_description', 'env': OrderedDict([('GZ_SIM_SYSTEM_PLUGIN_PATH', ':/opt/ros/humble/lib:/opt/ros/humble/lib'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GZ_SIM_RESOURCE_PATH', ':/home/shivam/so100/install/so100_description/share'), ('LANGUAGE', 'en_IN:en'), ('USER', 'shivam'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/ros/humble/lib'), ('HOME', '/home/shivam'), ('OLDPWD', '/home/shivam/so100'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1242'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/shivam/so100/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'shivam'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'shivam'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/shivam/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/shivam-pc:@/tmp/.ICE-unix/1214,unix/shivam-pc:/tmp/.ICE-unix/1214'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/bc5e3bde_0037_4e4f_92ee_869173a6004b'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.108'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/shivam/so100/install/so100_simulation:/home/shivam/so100/install/so100_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('IGN_GAZEBO_SYSTEM_PLUGIN_PATH', '/opt/ros/humble/lib'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GZ_VERSION', '8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/shivam/so100/build/so100_description'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/shivam/so100/install/so100_simulation:/home/shivam/so100/install/so100_description:/opt/ros/humble')]), 'shell': False}
+[0.030371] (so100_simulation) JobProgress: {'identifier': 'so100_simulation', 'progress': 'cmake'}
+[0.031165] (so100_simulation) JobProgress: {'identifier': 'so100_simulation', 'progress': 'build'}
+[0.031772] (so100_simulation) Command: {'cmd': ['/home/shivam/.local/bin/cmake', '--build', '/home/shivam/so100/build/so100_simulation', '--', '-j12', '-l12'], 'cwd': '/home/shivam/so100/build/so100_simulation', 'env': OrderedDict([('GZ_SIM_SYSTEM_PLUGIN_PATH', ':/opt/ros/humble/lib:/opt/ros/humble/lib'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GZ_SIM_RESOURCE_PATH', ':/home/shivam/so100/install/so100_description/share'), ('LANGUAGE', 'en_IN:en'), ('USER', 'shivam'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/ros/humble/lib'), ('HOME', '/home/shivam'), ('OLDPWD', '/home/shivam/so100'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1242'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/shivam/so100/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'shivam'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'shivam'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/shivam/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/shivam-pc:@/tmp/.ICE-unix/1214,unix/shivam-pc:/tmp/.ICE-unix/1214'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/bc5e3bde_0037_4e4f_92ee_869173a6004b'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.108'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/shivam/so100/install/so100_simulation:/home/shivam/so100/install/so100_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('IGN_GAZEBO_SYSTEM_PLUGIN_PATH', '/opt/ros/humble/lib'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GZ_VERSION', '8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/shivam/so100/build/so100_simulation'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/shivam/so100/install/so100_simulation:/home/shivam/so100/install/so100_description:/opt/ros/humble')]), 'shell': False}
+[0.099706] (-) TimerEvent: {}
+[0.200241] (-) TimerEvent: {}
+[0.205288] (gz_ros2_control) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.228621] (so100_description) CommandEnded: {'returncode': 0}
+[0.230612] (so100_description) JobProgress: {'identifier': 'so100_description', 'progress': 'install'}
+[0.300398] (-) TimerEvent: {}
+[0.400980] (-) TimerEvent: {}
+[0.443192] (so100_description) Command: {'cmd': ['/home/shivam/.local/bin/cmake', '--install', '/home/shivam/so100/build/so100_description'], 'cwd': '/home/shivam/so100/build/so100_description', 'env': OrderedDict([('GZ_SIM_SYSTEM_PLUGIN_PATH', ':/opt/ros/humble/lib:/opt/ros/humble/lib'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GZ_SIM_RESOURCE_PATH', ':/home/shivam/so100/install/so100_description/share'), ('LANGUAGE', 'en_IN:en'), ('USER', 'shivam'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/ros/humble/lib'), ('HOME', '/home/shivam'), ('OLDPWD', '/home/shivam/so100'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1242'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/shivam/so100/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'shivam'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'shivam'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/shivam/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/shivam-pc:@/tmp/.ICE-unix/1214,unix/shivam-pc:/tmp/.ICE-unix/1214'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/bc5e3bde_0037_4e4f_92ee_869173a6004b'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.108'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/shivam/so100/install/so100_simulation:/home/shivam/so100/install/so100_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('IGN_GAZEBO_SYSTEM_PLUGIN_PATH', '/opt/ros/humble/lib'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GZ_VERSION', '8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/shivam/so100/build/so100_description'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/shivam/so100/install/so100_simulation:/home/shivam/so100/install/so100_description:/opt/ros/humble')]), 'shell': False}
+[0.446903] (so100_simulation) CommandEnded: {'returncode': 0}
+[0.448484] (so100_simulation) JobProgress: {'identifier': 'so100_simulation', 'progress': 'install'}
+[0.450333] (so100_simulation) Command: {'cmd': ['/home/shivam/.local/bin/cmake', '--install', '/home/shivam/so100/build/so100_simulation'], 'cwd': '/home/shivam/so100/build/so100_simulation', 'env': OrderedDict([('GZ_SIM_SYSTEM_PLUGIN_PATH', ':/opt/ros/humble/lib:/opt/ros/humble/lib'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GZ_SIM_RESOURCE_PATH', ':/home/shivam/so100/install/so100_description/share'), ('LANGUAGE', 'en_IN:en'), ('USER', 'shivam'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/ros/humble/lib'), ('HOME', '/home/shivam'), ('OLDPWD', '/home/shivam/so100'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1242'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/shivam/so100/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'shivam'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'shivam'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/shivam/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/shivam-pc:@/tmp/.ICE-unix/1214,unix/shivam-pc:/tmp/.ICE-unix/1214'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/bc5e3bde_0037_4e4f_92ee_869173a6004b'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.108'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/shivam/so100/install/so100_simulation:/home/shivam/so100/install/so100_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('IGN_GAZEBO_SYSTEM_PLUGIN_PATH', '/opt/ros/humble/lib'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GZ_VERSION', '8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/shivam/so100/build/so100_simulation'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/shivam/so100/install/so100_simulation:/home/shivam/so100/install/so100_description:/opt/ros/humble')]), 'shell': False}
+[0.501187] (-) TimerEvent: {}
+[0.601804] (-) TimerEvent: {}
+[0.622756] (so100_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.624480] (so100_description) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.626063] (so100_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shivam/so100/install/so100_description/share/so100_description/urdf/assets/Base.stl\n'}
+[0.626625] (so100_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shivam/so100/install/so100_description/share/so100_description/urdf/assets/Base_Motor.stl\n'}
+[0.627287] (so100_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shivam/so100/install/so100_description/share/so100_description/urdf/assets/Fixed_Jaw.stl\n'}
+[0.628059] (so100_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shivam/so100/install/so100_description/share/so100_description/urdf/assets/Fixed_Jaw_Motor.stl\n'}
+[0.629003] (so100_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shivam/so100/install/so100_description/share/so100_description/urdf/assets/Lower_Arm.stl\n'}
+[0.629414] (so100_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shivam/so100/install/so100_description/share/so100_description/urdf/assets/Lower_Arm_Motor.stl\n'}
+[0.629748] (so100_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shivam/so100/install/so100_description/share/so100_description/urdf/assets/Moving_Jaw.stl\n'}
+[0.630559] (so100_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shivam/so100/install/so100_description/share/so100_description/urdf/assets/Rotation_Pitch.stl\n'}
+[0.630996] (so100_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shivam/so100/install/so100_description/share/so100_description/urdf/assets/Rotation_Pitch_Motor.stl\n'}
+[0.631499] (so100_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shivam/so100/install/so100_description/share/so100_description/urdf/assets/Upper_Arm.stl\n'}
+[0.631998] (so100_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shivam/so100/install/so100_description/share/so100_description/urdf/assets/Upper_Arm_Motor.stl\n'}
+[0.632553] (so100_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shivam/so100/install/so100_description/share/so100_description/urdf/assets/Wrist_Pitch_Roll.stl\n'}
+[0.633266] (so100_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shivam/so100/install/so100_description/share/so100_description/urdf/assets/Wrist_Pitch_Roll_Motor.stl\n'}
+[0.634142] (so100_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shivam/so100/install/so100_description/share/so100_description/urdf/so100 copy.urdf\n'}
+[0.635179] (so100_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shivam/so100/install/so100_description/share/so100_description/urdf/so100.urdf\n'}
+[0.635694] (so100_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shivam/so100/install/so100_description/share/so100_description/rviz/so100.rviz\n'}
+[0.636486] (so100_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shivam/so100/install/so100_description/share/so100_description/urdf/assets/Base.stl\n'}
+[0.637110] (so100_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shivam/so100/install/so100_description/share/so100_description/urdf/assets/Base_Motor.stl\n'}
+[0.637578] (so100_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shivam/so100/install/so100_description/share/so100_description/urdf/assets/Fixed_Jaw.stl\n'}
+[0.638139] (so100_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shivam/so100/install/so100_description/share/so100_description/urdf/assets/Fixed_Jaw_Motor.stl\n'}
+[0.638441] (so100_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shivam/so100/install/so100_description/share/so100_description/urdf/assets/Lower_Arm.stl\n'}
+[0.638758] (so100_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shivam/so100/install/so100_description/share/so100_description/urdf/assets/Lower_Arm_Motor.stl\n'}
+[0.639049] (so100_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shivam/so100/install/so100_description/share/so100_description/urdf/assets/Moving_Jaw.stl\n'}
+[0.639321] (so100_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shivam/so100/install/so100_description/share/so100_description/urdf/assets/Rotation_Pitch.stl\n'}
+[0.639596] (so100_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shivam/so100/install/so100_description/share/so100_description/urdf/assets/Rotation_Pitch_Motor.stl\n'}
+[0.639914] (so100_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shivam/so100/install/so100_description/share/so100_description/urdf/assets/Upper_Arm.stl\n'}
+[0.640411] (so100_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shivam/so100/install/so100_description/share/so100_description/urdf/assets/Upper_Arm_Motor.stl\n'}
+[0.640847] (so100_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shivam/so100/install/so100_description/share/so100_description/urdf/assets/Wrist_Pitch_Roll.stl\n'}
+[0.641193] (so100_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shivam/so100/install/so100_description/share/so100_description/urdf/assets/Wrist_Pitch_Roll_Motor.stl\n'}
+[0.641509] (so100_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shivam/so100/install/so100_description/share/ament_index/resource_index/package_run_dependencies/so100_description\n'}
+[0.641868] (so100_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shivam/so100/install/so100_description/share/ament_index/resource_index/parent_prefix_path/so100_description\n'}
+[0.642270] (so100_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shivam/so100/install/so100_description/share/so100_description/environment/ament_prefix_path.sh\n'}
+[0.642575] (so100_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shivam/so100/install/so100_description/share/so100_description/environment/ament_prefix_path.dsv\n'}
+[0.643064] (so100_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shivam/so100/install/so100_description/share/so100_description/environment/path.sh\n'}
+[0.643506] (so100_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shivam/so100/install/so100_description/share/so100_description/environment/path.dsv\n'}
+[0.643922] (so100_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shivam/so100/install/so100_description/share/so100_description/local_setup.bash\n'}
+[0.644281] (so100_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shivam/so100/install/so100_description/share/so100_description/local_setup.sh\n'}
+[0.644614] (so100_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shivam/so100/install/so100_description/share/so100_description/local_setup.zsh\n'}
+[0.644988] (so100_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shivam/so100/install/so100_description/share/so100_description/local_setup.dsv\n'}
+[0.645306] (so100_description) StdoutLine: {'line': b'-- Symlinking: /home/shivam/so100/install/so100_description/share/so100_description/package.dsv\n'}
+[0.650168] (so100_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shivam/so100/install/so100_description/share/ament_index/resource_index/packages/so100_description\n'}
+[0.651054] (so100_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shivam/so100/install/so100_description/share/so100_description/cmake/so100_descriptionConfig.cmake\n'}
+[0.651531] (so100_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shivam/so100/install/so100_description/share/so100_description/cmake/so100_descriptionConfig-version.cmake\n'}
+[0.652020] (so100_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shivam/so100/install/so100_description/share/so100_description/package.xml\n'}
+[0.656157] (so100_description) CommandEnded: {'returncode': 0}
+[0.662282] (so100_simulation) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.663327] (so100_simulation) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.664510] (so100_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shivam/so100/install/so100_simulation/share/so100_simulation/launch/a\n'}
+[0.665597] (so100_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shivam/so100/install/so100_simulation/share/so100_simulation/launch/sim.launch.py\n'}
+[0.666029] (so100_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shivam/so100/install/so100_simulation/share/so100_simulation/launch/sim2.launch.py\n'}
+[0.667497] (so100_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shivam/so100/install/so100_simulation/share/so100_simulation/launch/world.launch.py\n'}
+[0.667895] (so100_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shivam/so100/install/so100_simulation/share/ament_index/resource_index/package_run_dependencies/so100_simulation\n'}
+[0.668478] (so100_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shivam/so100/install/so100_simulation/share/ament_index/resource_index/parent_prefix_path/so100_simulation\n'}
+[0.669156] (so100_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shivam/so100/install/so100_simulation/share/so100_simulation/environment/ament_prefix_path.sh\n'}
+[0.669911] (so100_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shivam/so100/install/so100_simulation/share/so100_simulation/environment/ament_prefix_path.dsv\n'}
+[0.670479] (so100_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shivam/so100/install/so100_simulation/share/so100_simulation/environment/path.sh\n'}
+[0.672277] (so100_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shivam/so100/install/so100_simulation/share/so100_simulation/environment/path.dsv\n'}
+[0.673273] (so100_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shivam/so100/install/so100_simulation/share/so100_simulation/local_setup.bash\n'}
+[0.673530] (so100_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shivam/so100/install/so100_simulation/share/so100_simulation/local_setup.sh\n'}
+[0.673995] (so100_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shivam/so100/install/so100_simulation/share/so100_simulation/local_setup.zsh\n'}
+[0.674193] (so100_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shivam/so100/install/so100_simulation/share/so100_simulation/local_setup.dsv\n'}
+[0.674310] (so100_simulation) StdoutLine: {'line': b'-- Symlinking: /home/shivam/so100/install/so100_simulation/share/so100_simulation/package.dsv\n'}
+[0.675965] (so100_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shivam/so100/install/so100_simulation/share/ament_index/resource_index/packages/so100_simulation\n'}
+[0.676221] (so100_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shivam/so100/install/so100_simulation/share/so100_simulation/cmake/so100_simulationConfig.cmake\n'}
+[0.676768] (so100_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shivam/so100/install/so100_simulation/share/so100_simulation/cmake/so100_simulationConfig-version.cmake\n'}
+[0.676915] (so100_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shivam/so100/install/so100_simulation/share/so100_simulation/package.xml\n'}
+[0.704802] (-) TimerEvent: {}
+[0.710134] (so100_description) JobEnded: {'identifier': 'so100_description', 'rc': 0}
+[0.712641] (so100_simulation) CommandEnded: {'returncode': 0}
+[0.742742] (so100_simulation) JobEnded: {'identifier': 'so100_simulation', 'rc': 0}
+[0.746825] (gz_ros2_control) StdoutLine: {'line': b'-- Found ament_index_cpp: 1.4.1 (/opt/ros/humble/share/ament_index_cpp/cmake)\n'}
+[0.748584] (gz_ros2_control) StdoutLine: {'line': b'-- Found controller_manager: 2.53.1 (/opt/ros/humble/share/controller_manager/cmake)\n'}
+[0.804962] (-) TimerEvent: {}
+[0.821264] (gz_ros2_control) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.826892] (gz_ros2_control) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.842486] (gz_ros2_control) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.865443] (gz_ros2_control) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.893365] (gz_ros2_control) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.905077] (-) TimerEvent: {}
+[1.005478] (-) TimerEvent: {}
+[1.105979] (-) TimerEvent: {}
+[1.206592] (-) TimerEvent: {}
+[1.307218] (-) TimerEvent: {}
+[1.379946] (gz_ros2_control) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.381877] (gz_ros2_control) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.407353] (-) TimerEvent: {}
+[1.414537] (gz_ros2_control) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[1.430070] (gz_ros2_control) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[1.472389] (gz_ros2_control) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[1.485763] (gz_ros2_control) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[1.506698] (gz_ros2_control) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.507445] (-) TimerEvent: {}
+[1.607793] (-) TimerEvent: {}
+[1.691251] (gz_ros2_control) StdoutLine: {'line': b'-- Found yaml_cpp_vendor: 8.0.2 (/opt/ros/humble/share/yaml_cpp_vendor/cmake)\n'}
+[1.693089] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-sim8 -- found version 8.11.0\n'}
+[1.702714] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of gz-sim8\n'}
+[1.703403] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for sdformat14 -- found version 14.9.0\n'}
+[1.703817] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of sdformat14\n'}
+[1.707919] (-) TimerEvent: {}
+[1.714906] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.6.0\n'}
+[1.715225] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of gz-math7\n'}
+[1.715905] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.1\n'}
+[1.716295] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of gz-utils2\n'}
+[1.718802] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.1\n'}
+[1.719290] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of gz-utils2\n'}
+[1.719496] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for <gz-utils2> component [cli]\n'}
+[1.719953] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-utils2-cli -- found version 2.2.1\n'}
+[1.720318] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of gz-utils2-cli\n'}
+[1.723346] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-plugin2 -- found version 2.0.4\n'}
+[1.723644] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of gz-plugin2\n'}
+[1.724357] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.1\n'}
+[1.725400] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for <gz-plugin2> component [loader]\n'}
+[1.726216] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-plugin2-loader -- found version 2.0.4\n'}
+[1.726576] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of gz-plugin2-loader\n'}
+[1.727382] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for <gz-plugin2> component [register]\n'}
+[1.728146] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-plugin2-register -- found version 2.0.4\n'}
+[1.728432] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of gz-plugin2-register\n'}
+[1.730039] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-transport13 -- found version 13.5.0\n'}
+[1.730288] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of gz-transport13\n'}
+[1.784964] (gz_ros2_control) StdoutLine: {'line': b'-- Config-file not installed for ZeroMQ -- checking for pkg-config\n'}
+[1.794908] (gz_ros2_control) StdoutLine: {'line': b"-- Checking for module 'libzmq >= 4'\n"}
+[1.808085] (-) TimerEvent: {}
+[1.821078] (gz_ros2_control) StdoutLine: {'line': b'--   Found libzmq, version 4.3.4\n'}
+[1.908249] (-) TimerEvent: {}
+[1.908917] (gz_ros2_control) StdoutLine: {'line': b"-- Checking for module 'uuid'\n"}
+[1.937259] (gz_ros2_control) StdoutLine: {'line': b'--   Found uuid, version 2.37.2\n'}
+[1.999088] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.1\n'}
+[2.000196] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-msgs10 -- found version 10.3.2\n'}
+[2.000572] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of gz-msgs10\n'}
+[2.008415] (-) TimerEvent: {}
+[2.041989] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.1\n'}
+[2.043442] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.6.0\n'}
+[2.063671] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for <gz-transport13> component [log]\n'}
+[2.064852] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-transport13-log -- found version 13.5.0\n'}
+[2.065335] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of gz-transport13-log\n'}
+[2.066405] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for <gz-transport13> component [parameters]\n'}
+[2.067525] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-transport13-parameters -- found version 13.5.0\n'}
+[2.067906] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of gz-transport13-parameters\n'}
+[2.070145] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-msgs10 -- found version 10.3.2\n'}
+[2.071253] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-common5 -- found version 5.8.0\n'}
+[2.071663] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of gz-common5\n'}
+[2.072494] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.1\n'}
+[2.072989] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[2.073258] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[2.093809] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for <gz-common5> component [av]\n'}
+[2.095081] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-common5-av -- found version 5.8.0\n'}
+[2.095568] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of gz-common5-av\n'}
+[2.108369] (gz_ros2_control) StdoutLine: {'line': b"-- Checking for module 'libswscale'\n"}
+[2.108832] (-) TimerEvent: {}
+[2.135365] (gz_ros2_control) StdoutLine: {'line': b'--   Found libswscale, version 5.9.100\n'}
+[2.209009] (-) TimerEvent: {}
+[2.212962] (gz_ros2_control) StdoutLine: {'line': b"-- Checking for module 'libavdevice >= 56.4.100'\n"}
+[2.235256] (gz_ros2_control) StdoutLine: {'line': b'--   Found libavdevice, version 58.13.100\n'}
+[2.302516] (gz_ros2_control) StdoutLine: {'line': b"-- Checking for module 'libavformat'\n"}
+[2.309113] (-) TimerEvent: {}
+[2.319347] (gz_ros2_control) StdoutLine: {'line': b'--   Found libavformat, version 58.76.100\n'}
+[2.376360] (gz_ros2_control) StdoutLine: {'line': b"-- Checking for module 'libavcodec'\n"}
+[2.394103] (gz_ros2_control) StdoutLine: {'line': b'--   Found libavcodec, version 58.134.100\n'}
+[2.409272] (-) TimerEvent: {}
+[2.446838] (gz_ros2_control) StdoutLine: {'line': b"-- Checking for module 'libavutil'\n"}
+[2.468595] (gz_ros2_control) StdoutLine: {'line': b'--   Found libavutil, version 56.70.100\n'}
+[2.509416] (-) TimerEvent: {}
+[2.510408] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for <gz-common5> component [events]\n'}
+[2.511171] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-common5-events -- found version 5.8.0\n'}
+[2.511506] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of gz-common5-events\n'}
+[2.512208] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.6.0\n'}
+[2.513247] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for <gz-common5> component [graphics]\n'}
+[2.513946] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-common5-graphics -- found version 5.8.0\n'}
+[2.514212] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of gz-common5-graphics\n'}
+[2.514888] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.6.0\n'}
+[2.519592] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for <gz-common5> component [io]\n'}
+[2.520301] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-common5-io -- found version 5.8.0\n'}
+[2.520528] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of gz-common5-io\n'}
+[2.521376] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for <gz-common5> component [profiler]\n'}
+[2.522054] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-common5-profiler -- found version 5.8.0\n'}
+[2.522436] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of gz-common5-profiler\n'}
+[2.524069] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-fuel_tools9 -- found version 9.1.1\n'}
+[2.524363] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of gz-fuel_tools9\n'}
+[2.572087] (gz_ros2_control) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at /usr/lib/x86_64-linux-gnu/cmake/jsoncpp/jsoncppConfig.cmake:2 (cmake_policy):\n'}
+[2.572389] (gz_ros2_control) StderrLine: {'line': b'  Compatibility with CMake < 3.10 will be removed from a future version of\n'}
+[2.572504] (gz_ros2_control) StderrLine: {'line': b'  CMake.\n'}
+[2.572608] (gz_ros2_control) StderrLine: {'line': b'\n'}
+[2.572731] (gz_ros2_control) StderrLine: {'line': b'  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax\n'}
+[2.572834] (gz_ros2_control) StderrLine: {'line': b'  to tell CMake that the project requires at least <min> but has been updated\n'}
+[2.572931] (gz_ros2_control) StderrLine: {'line': b'  to work with policies introduced by <max> or earlier.\n'}
+[2.573032] (gz_ros2_control) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[2.573134] (gz_ros2_control) StderrLine: {'line': b'  /usr/share/cmake/gz-cmake3/cmake3/FindJSONCPP.cmake:34 (find_package)\n'}
+[2.573233] (gz_ros2_control) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/gz-fuel_tools9/gz-fuel_tools9-config.cmake:94 (find_package)\n'}
+[2.573332] (gz_ros2_control) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/gz-sim8/gz-sim8-config.cmake:97 (find_package)\n'}
+[2.573429] (gz_ros2_control) StderrLine: {'line': b'  CMakeLists.txt:20 (find_package)\n'}
+[2.573537] (gz_ros2_control) StderrLine: {'line': b'\n'}
+[2.573763] (gz_ros2_control) StderrLine: {'line': b'\x1b[0m\n'}
+[2.580250] (gz_ros2_control) StdoutLine: {'line': b"-- Checking for module 'jsoncpp'\n"}
+[2.597143] (gz_ros2_control) StdoutLine: {'line': b'--   Found jsoncpp, version 1.9.5\n'}
+[2.609566] (-) TimerEvent: {}
+[2.661042] (gz_ros2_control) StdoutLine: {'line': b"-- Checking for module 'libzip'\n"}
+[2.682467] (gz_ros2_control) StdoutLine: {'line': b'--   Found libzip, version 1.7.3\n'}
+[2.709778] (-) TimerEvent: {}
+[2.728530] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.1\n'}
+[2.729222] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-common5 -- found version 5.8.0\n'}
+[2.729522] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of gz-common5\n'}
+[2.730470] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.1\n'}
+[2.730818] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[2.730971] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[2.749919] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for <gz-common5> component [testing]\n'}
+[2.750959] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-common5-testing -- found version 5.8.0\n'}
+[2.751526] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of gz-common5-testing\n'}
+[2.753854] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.6.0\n'}
+[2.754754] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-msgs10 -- found version 10.3.2\n'}
+[2.756997] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-gui8 -- found version 8.4.0\n'}
+[2.757447] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of gz-gui8\n'}
+[2.795364] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.1\n'}
+[2.795676] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.6.0\n'}
+[2.796424] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-common5 -- found version 5.8.0\n'}
+[2.796907] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-plugin2 -- found version 2.0.4\n'}
+[2.797506] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-transport13 -- found version 13.5.0\n'}
+[2.798222] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-rendering8 -- found version 8.2.3\n'}
+[2.798416] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of gz-rendering8\n'}
+[2.798951] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.6.0\n'}
+[2.799152] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of gz-math7\n'}
+[2.799868] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.1\n'}
+[2.800090] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for <gz-math7> component [eigen3]\n'}
+[2.800602] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-math7-eigen3 -- found version 7.6.0\n'}
+[2.800875] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of gz-math7-eigen3\n'}
+[2.803360] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-common5 -- found version 5.8.0\n'}
+[2.803553] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of gz-common5\n'}
+[2.804184] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.1\n'}
+[2.804380] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[2.804507] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[2.809877] (-) TimerEvent: {}
+[2.816740] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for <gz-common5> component [graphics]\n'}
+[2.817029] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for <gz-common5> component [events]\n'}
+[2.817147] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for <gz-common5> component [geospatial]\n'}
+[2.817664] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-common5-geospatial -- found version 5.8.0\n'}
+[2.818067] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of gz-common5-geospatial\n'}
+[2.818617] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.6.0\n'}
+[2.819610] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-common5 -- found version 5.8.0\n'}
+[2.821752] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-plugin2 -- found version 2.0.4\n'}
+[2.822074] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of gz-plugin2\n'}
+[2.822452] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.1\n'}
+[2.822869] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for <gz-plugin2> component [all]\n'}
+[2.823348] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for all libraries of gz-plugin2 -- found version 2.0.4\n'}
+[2.824409] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-plugin2 -- found version 2.0.4\n'}
+[2.825874] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.1\n'}
+[2.831064] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-msgs10 -- found version 10.3.2\n'}
+[2.856885] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-physics7 -- found version 7.6.0\n'}
+[2.857127] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of gz-physics7\n'}
+[2.857485] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-common5 -- found version 5.8.0\n'}
+[2.858150] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.6.0\n'}
+[2.858806] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-plugin2 -- found version 2.0.4\n'}
+[2.859427] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.1\n'}
+[2.861253] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for <gz-physics7> component [heightmap]\n'}
+[2.861826] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-physics7-heightmap -- found version 7.6.0\n'}
+[2.862103] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of gz-physics7-heightmap\n'}
+[2.862618] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-common5 -- found version 5.8.0\n'}
+[2.863426] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for <gz-physics7> component [mesh]\n'}
+[2.863982] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-physics7-mesh -- found version 7.6.0\n'}
+[2.864343] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of gz-physics7-mesh\n'}
+[2.864792] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-common5 -- found version 5.8.0\n'}
+[2.865695] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for <gz-physics7> component [sdf]\n'}
+[2.866196] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-physics7-sdf -- found version 7.6.0\n'}
+[2.866510] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of gz-physics7-sdf\n'}
+[2.867040] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for sdformat14 -- found version 14.9.0\n'}
+[2.868585] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-sensors8 -- found version 8.2.2\n'}
+[2.868857] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8\n'}
+[2.892985] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.6.0\n'}
+[2.893325] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-common5 -- found version 5.8.0\n'}
+[2.894192] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-transport13 -- found version 13.5.0\n'}
+[2.894609] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-rendering8 -- found version 8.2.3\n'}
+[2.895321] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-msgs10 -- found version 10.3.2\n'}
+[2.895733] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for sdformat14 -- found version 14.9.0\n'}
+[2.896812] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [air_pressure]\n'}
+[2.897335] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-sensors8-air_pressure -- found version 8.2.2\n'}
+[2.897583] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-air_pressure\n'}
+[2.898367] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [air_speed]\n'}
+[2.898759] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-sensors8-air_speed -- found version 8.2.2\n'}
+[2.899083] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-air_speed\n'}
+[2.899757] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [altimeter]\n'}
+[2.900539] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-sensors8-altimeter -- found version 8.2.2\n'}
+[2.900706] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-altimeter\n'}
+[2.901473] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [imu]\n'}
+[2.901920] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-sensors8-imu -- found version 8.2.2\n'}
+[2.902114] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-imu\n'}
+[2.902856] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [force_torque]\n'}
+[2.903474] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-sensors8-force_torque -- found version 8.2.2\n'}
+[2.903653] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-force_torque\n'}
+[2.904468] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [logical_camera]\n'}
+[2.904986] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-sensors8-logical_camera -- found version 8.2.2\n'}
+[2.905184] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-logical_camera\n'}
+[2.905920] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [magnetometer]\n'}
+[2.906658] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-sensors8-magnetometer -- found version 8.2.2\n'}
+[2.906842] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-magnetometer\n'}
+[2.907580] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [navsat]\n'}
+[2.908169] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-sensors8-navsat -- found version 8.2.2\n'}
+[2.908340] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-navsat\n'}
+[2.909171] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [dvl]\n'}
+[2.909706] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-sensors8-dvl -- found version 8.2.2\n'}
+[2.909919] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-dvl\n'}
+[2.910019] (-) TimerEvent: {}
+[2.910701] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-sensors8 -- found version 8.2.2\n'}
+[2.910897] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8\n'}
+[2.936762] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.6.0\n'}
+[2.937347] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-common5 -- found version 5.8.0\n'}
+[2.938036] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-transport13 -- found version 13.5.0\n'}
+[2.938498] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-rendering8 -- found version 8.2.3\n'}
+[2.939498] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-msgs10 -- found version 10.3.2\n'}
+[2.940010] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for sdformat14 -- found version 14.9.0\n'}
+[2.940287] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [rendering]\n'}
+[2.941086] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-sensors8-rendering -- found version 8.2.2\n'}
+[2.941343] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-rendering\n'}
+[2.943335] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [rendering]\n'}
+[2.943547] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [lidar]\n'}
+[2.944043] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-sensors8-lidar -- found version 8.2.2\n'}
+[2.944281] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-lidar\n'}
+[2.945093] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-sensors8 -- found version 8.2.2\n'}
+[2.946021] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [gpu_lidar]\n'}
+[2.946762] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-sensors8-gpu_lidar -- found version 8.2.2\n'}
+[2.947124] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-gpu_lidar\n'}
+[2.947639] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-sensors8 -- found version 8.2.2\n'}
+[2.948683] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [camera]\n'}
+[2.949546] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-sensors8-camera -- found version 8.2.2\n'}
+[2.949860] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-camera\n'}
+[2.950434] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-sensors8 -- found version 8.2.2\n'}
+[2.951556] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [boundingbox_camera]\n'}
+[2.952269] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-sensors8-boundingbox_camera -- found version 8.2.2\n'}
+[2.952550] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-boundingbox_camera\n'}
+[2.953392] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [segmentation_camera]\n'}
+[2.954223] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-sensors8-segmentation_camera -- found version 8.2.2\n'}
+[2.954454] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-segmentation_camera\n'}
+[2.955294] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [depth_camera]\n'}
+[2.956000] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-sensors8-depth_camera -- found version 8.2.2\n'}
+[2.956233] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-depth_camera\n'}
+[2.957021] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-sensors8 -- found version 8.2.2\n'}
+[2.958170] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [rgbd_camera]\n'}
+[2.958965] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-sensors8-rgbd_camera -- found version 8.2.2\n'}
+[2.959302] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-rgbd_camera\n'}
+[2.960042] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-sensors8 -- found version 8.2.2\n'}
+[2.961138] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [thermal_camera]\n'}
+[2.963707] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-sensors8-thermal_camera -- found version 8.2.2\n'}
+[2.964136] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-thermal_camera\n'}
+[2.964896] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-sensors8 -- found version 8.2.2\n'}
+[2.966042] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [wide_angle_camera]\n'}
+[2.966805] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-sensors8-wide_angle_camera -- found version 8.2.2\n'}
+[2.967146] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-wide_angle_camera\n'}
+[2.969005] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-rendering8 -- found version 8.2.3\n'}
+[2.969838] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.6.0\n'}
+[2.970757] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.1\n'}
+[3.010243] (-) TimerEvent: {}
+[3.014999] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-plugin2 -- found version 2.0.4\n'}
+[3.110427] (-) TimerEvent: {}
+[3.197867] (gz_ros2_control) StdoutLine: {'line': b'-- Configuring done (3.0s)\n'}
+[3.210680] (-) TimerEvent: {}
+[3.287033] (gz_ros2_control) StdoutLine: {'line': b'-- Generating done (0.1s)\n'}
+[3.309869] (gz_ros2_control) StdoutLine: {'line': b'-- Build files have been written to: /home/shivam/so100/build/gz_ros2_control\n'}
+[3.310691] (-) TimerEvent: {}
+[3.337416] (gz_ros2_control) CommandEnded: {'returncode': 0}
+[3.339240] (gz_ros2_control) JobProgress: {'identifier': 'gz_ros2_control', 'progress': 'build'}
+[3.340179] (gz_ros2_control) Command: {'cmd': ['/home/shivam/.local/bin/cmake', '--build', '/home/shivam/so100/build/gz_ros2_control', '--', '-j12', '-l12'], 'cwd': '/home/shivam/so100/build/gz_ros2_control', 'env': OrderedDict([('GZ_SIM_SYSTEM_PLUGIN_PATH', ':/opt/ros/humble/lib:/opt/ros/humble/lib'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GZ_SIM_RESOURCE_PATH', ':/home/shivam/so100/install/so100_description/share'), ('LANGUAGE', 'en_IN:en'), ('USER', 'shivam'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/ros/humble/lib'), ('HOME', '/home/shivam'), ('OLDPWD', '/home/shivam/so100'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1242'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/shivam/so100/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'shivam'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'shivam'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/shivam/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/shivam-pc:@/tmp/.ICE-unix/1214,unix/shivam-pc:/tmp/.ICE-unix/1214'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/bc5e3bde_0037_4e4f_92ee_869173a6004b'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.108'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/shivam/so100/install/so100_simulation:/home/shivam/so100/install/so100_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('IGN_GAZEBO_SYSTEM_PLUGIN_PATH', '/opt/ros/humble/lib'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GZ_VERSION', '8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/shivam/so100/build/gz_ros2_control'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/shivam/so100/install/so100_simulation:/home/shivam/so100/install/so100_description:/opt/ros/humble')]), 'shell': False}
+[3.410891] (-) TimerEvent: {}
+[3.511508] (-) TimerEvent: {}
+[3.541664] (gz_ros2_control) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/gz_ros2_control-system.dir/src/gz_ros2_control_plugin.cpp.o\x1b[0m\n'}
+[3.542216] (gz_ros2_control) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/gz_hardware_plugins.dir/src/gz_system.cpp.o\x1b[0m\n'}
+[3.542515] (gz_ros2_control) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/ign_ros2_control-system.dir/src/gz_ros2_control_plugin.cpp.o\x1b[0m\n'}
+[3.611722] (-) TimerEvent: {}
+[3.706000] (gz_ros2_control) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/shivam/so100/src/gz_ros2_control/gz_ros2_control/include/gz_ros2_control/gz_system.hpp:24\x1b[m\x1b[K,\n'}
+[3.706360] (gz_ros2_control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivam/so100/src/gz_ros2_control/gz_ros2_control/src/gz_system.cpp:15\x1b[m\x1b[K:\n'}
+[3.706514] (gz_ros2_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/shivam/so100/src/gz_ros2_control/gz_ros2_control/include/gz_ros2_control/gz_system_interface.hpp:28:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kignition/gazebo/System.hh: No such file or directory\n'}
+[3.706673] (gz_ros2_control) StderrLine: {'line': b'   28 | #include \x1b[01;31m\x1b[K<ignition/gazebo/System.hh>\x1b[m\x1b[K\n'}
+[3.706819] (gz_ros2_control) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.706954] (gz_ros2_control) StderrLine: {'line': b'compilation terminated.\n'}
+[3.710167] (gz_ros2_control) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/gz_hardware_plugins.dir/build.make:79: CMakeFiles/gz_hardware_plugins.dir/src/gz_system.cpp.o] Error 1\n'}
+[3.710659] (gz_ros2_control) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:191: CMakeFiles/gz_hardware_plugins.dir/all] Error 2\n'}
+[3.710879] (gz_ros2_control) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[3.711804] (-) TimerEvent: {}
+[3.793602] (gz_ros2_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/shivam/so100/src/gz_ros2_control/gz_ros2_control/src/gz_ros2_control_plugin.cpp:35:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kignition/gazebo/components/Joint.hh: No such file or directory\n'}
+[3.793918] (gz_ros2_control) StderrLine: {'line': b'   35 | #include \x1b[01;31m\x1b[K<ignition/gazebo/components/Joint.hh>\x1b[m\x1b[K\n'}
+[3.794050] (gz_ros2_control) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.794170] (gz_ros2_control) StderrLine: {'line': b'compilation terminated.\n'}
+[3.796468] (gz_ros2_control) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/gz_ros2_control-system.dir/build.make:79: CMakeFiles/gz_ros2_control-system.dir/src/gz_ros2_control_plugin.cpp.o] Error 1\n'}
+[3.796910] (gz_ros2_control) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:159: CMakeFiles/gz_ros2_control-system.dir/all] Error 2\n'}
+[3.811937] (-) TimerEvent: {}
+[3.848775] (gz_ros2_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/shivam/so100/src/gz_ros2_control/gz_ros2_control/src/gz_ros2_control_plugin.cpp:35:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kignition/gazebo/components/Joint.hh: No such file or directory\n'}
+[3.849122] (gz_ros2_control) StderrLine: {'line': b'   35 | #include \x1b[01;31m\x1b[K<ignition/gazebo/components/Joint.hh>\x1b[m\x1b[K\n'}
+[3.849282] (gz_ros2_control) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.849426] (gz_ros2_control) StderrLine: {'line': b'compilation terminated.\n'}
+[3.851940] (gz_ros2_control) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/ign_ros2_control-system.dir/build.make:79: CMakeFiles/ign_ros2_control-system.dir/src/gz_ros2_control_plugin.cpp.o] Error 1\n'}
+[3.852531] (gz_ros2_control) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:223: CMakeFiles/ign_ros2_control-system.dir/all] Error 2\n'}
+[3.852788] (gz_ros2_control) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[3.855553] (gz_ros2_control) CommandEnded: {'returncode': 2}
+[3.866702] (gz_ros2_control) JobEnded: {'identifier': 'gz_ros2_control', 'rc': 2}
+[3.877521] (gz_ros2_control_demos) JobSkipped: {'identifier': 'gz_ros2_control_demos'}
+[3.877783] (ign_ros2_control) JobSkipped: {'identifier': 'ign_ros2_control'}
+[3.877850] (ign_ros2_control_demos) JobSkipped: {'identifier': 'ign_ros2_control_demos'}
+[3.878059] (gz_ros2_control_tests) JobSkipped: {'identifier': 'gz_ros2_control_tests'}
+[3.878177] (-) EventReactorShutdown: {}

@@ -34,7 +34,7 @@ def generate_launch_description():
         executable='rviz2',
         name='rviz2',
         output='screen',
-        parameters=[{'use_sim_time': False}]
+        parameters=[{'use_sim_time': True}]
     )
 
     gazebo = IncludeLaunchDescription(
@@ -57,14 +57,14 @@ def generate_launch_description():
     package='joint_state_publisher_gui',
     executable='joint_state_publisher_gui',
     # Do NOT set use_sim_time to True here if you want it to be the master
-    parameters=[{'robot_description': robot_description , 'use_sim_time': False}]
+    parameters=[{'robot_description': robot_description , 'use_sim_time': True}]
 )
 
     node_robot_state_publisher = Node(
     package='robot_state_publisher',
     executable='robot_state_publisher',
     output='screen',
-    parameters=[{'robot_description': robot_description,'use_sim_time': False}]
+    parameters=[{'robot_description': robot_description,'use_sim_time': True}]
     )
 
     spawn_entity = Node(package='ros_gz_sim', executable='create',

@@ -2,37 +2,30 @@
 <robot name="so_arm100" xmlns:xacro="http://www.ros.org/wiki/xacro">
   
   <!-- Materials -->
-  <material name="3d_printed">
-    <color rgba="1.0 0.82 0.12 1.0"/>
-  </material>
-  <material name="sts3215">
-    <color rgba="0.1 0.1 0.1 1.0"/>
-  </material>
+  <material name="3d_printed"><color rgba="1.0 0.82 0.12 1.0"/></material>
+  <material name="sts3215"><color rgba="0.1 0.1 0.1 1.0"/></material>
+
+  <!-- world and world joint (The Anchor) -->
+  <link name="world"/>
+  <joint name="world_joint" type="fixed">
+    <parent link="world"/>
+    <child link="base"/>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+  </joint>
 
   <!-- Link base -->
   <link name="base">
     <inertial>
-      <!-- Approximate inertial values -->
       <mass value="1.0"/>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <inertia ixx="0.01" ixy="0" ixz="0" iyy="0.01" iyz="0" izz="0.01"/>
     </inertial>
     <visual>
-      <geometry>
-        <mesh filename="package://so100_description/urdf/assets/Base.stl"/>
-      </geometry>
+      <geometry><mesh filename="package://so100_description/urdf/assets/Base.stl"/></geometry>
       <material name="3d_printed"/>
     </visual>
-    <visual>
-      <geometry>
-        <mesh filename="package://so100_description/urdf/assets/Base_Motor.stl"/>
-      </geometry>
-      <material name="sts3215"/>
-    </visual>
     <collision>
-      <geometry>
-        <mesh filename="package://so100_description/urdf/assets/Base.stl"/>
-      </geometry>
+      <geometry><mesh filename="package://so100_description/urdf/assets/Base.stl"/></geometry>
     </collision>
   </link>
 
@@ -44,21 +37,11 @@
       <inertia ixx="5.94278e-05" ixy="0" ixz="0" iyy="5.89975e-05" iyz="0" izz="3.13712e-05"/>
     </inertial>
     <visual>
-      <geometry>
-        <mesh filename="package://so100_description/urdf/assets/Rotation_Pitch.stl"/>
-      </geometry>
+      <geometry><mesh filename="package://so100_description/urdf/assets/Rotation_Pitch.stl"/></geometry>
       <material name="3d_printed"/>
     </visual>
-    <visual>
-      <geometry>
-        <mesh filename="package://so100_description/urdf/assets/Rotation_Pitch_Motor.stl"/>
-      </geometry>
-      <material name="sts3215"/>
-    </visual>
     <collision>
-      <geometry>
-        <mesh filename="package://so100_description/urdf/assets/Rotation_Pitch.stl"/>
-      </geometry>
+      <geometry><mesh filename="package://so100_description/urdf/assets/Rotation_Pitch.stl"/></geometry>
     </collision>
   </link>
 
@@ -70,21 +53,11 @@
       <inertia ixx="0.000213312" ixy="0" ixz="0" iyy="0.000167164" iyz="0" izz="7.01522e-05"/>
     </inertial>
     <visual>
-      <geometry>
-        <mesh filename="package://so100_description/urdf/assets/Upper_Arm.stl"/>
-      </geometry>
+      <geometry><mesh filename="package://so100_description/urdf/assets/Upper_Arm.stl"/></geometry>
       <material name="3d_printed"/>
     </visual>
-    <visual>
-      <geometry>
-        <mesh filename="package://so100_description/urdf/assets/Upper_Arm_Motor.stl"/>
-      </geometry>
-      <material name="sts3215"/>
-    </visual>
     <collision>
-      <geometry>
-        <mesh filename="package://so100_description/urdf/assets/Upper_Arm.stl"/>
-      </geometry>
+      <geometry><mesh filename="package://so100_description/urdf/assets/Upper_Arm.stl"/></geometry>
     </collision>
   </link>
 
@@ -96,21 +69,11 @@
       <inertia ixx="0.000138803" ixy="0" ixz="0" iyy="0.000107748" iyz="0" izz="4.84242e-05"/>
     </inertial>
     <visual>
-      <geometry>
-        <mesh filename="package://so100_description/urdf/assets/Lower_Arm.stl"/>
-      </geometry>
+      <geometry><mesh filename="package://so100_description/urdf/assets/Lower_Arm.stl"/></geometry>
       <material name="3d_printed"/>
     </visual>
-    <visual>
-      <geometry>
-        <mesh filename="package://so100_description/urdf/assets/Lower_Arm_Motor.stl"/>
-      </geometry>
-      <material name="sts3215"/>
-    </visual>
     <collision>
-      <geometry>
-        <mesh filename="package://so100_description/urdf/assets/Lower_Arm.stl"/>
-      </geometry>
+      <geometry><mesh filename="package://so100_description/urdf/assets/Lower_Arm.stl"/></geometry>
     </collision>
   </link>
 
@@ -122,21 +85,11 @@
       <inertia ixx="3.45403e-05" ixy="0" ixz="0" iyy="2.39041e-05" iyz="0" izz="1.94704e-05"/>
     </inertial>
     <visual>
-      <geometry>
-        <mesh filename="package://so100_description/urdf/assets/Wrist_Pitch_Roll.stl"/>
-      </geometry>
+      <geometry><mesh filename="package://so100_description/urdf/assets/Wrist_Pitch_Roll.stl"/></geometry>
       <material name="3d_printed"/>
     </visual>
-    <visual>
-      <geometry>
-        <mesh filename="package://so100_description/urdf/assets/Wrist_Pitch_Roll_Motor.stl"/>
-      </geometry>
-      <material name="sts3215"/>
-    </visual>
     <collision>
-      <geometry>
-        <mesh filename="package://so100_description/urdf/assets/Wrist_Pitch_Roll.stl"/>
-      </geometry>
+      <geometry><mesh filename="package://so100_description/urdf/assets/Wrist_Pitch_Roll.stl"/></geometry>
     </collision>
   </link>
 
@@ -148,17 +101,12 @@
       <inertia ixx="5.03136e-05" ixy="0" ixz="0" iyy="4.64098e-05" iyz="0" izz="2.72961e-05"/>
     </inertial>
     <visual>
-      <geometry>
-        <mesh filename="package://so100_description/urdf/assets/Fixed_Jaw.stl"/>
-      </geometry>
+      <geometry><mesh filename="package://so100_description/urdf/assets/Fixed_Jaw.stl"/></geometry>
       <material name="3d_printed"/>
     </visual>
-    <visual>
-      <geometry>
-        <mesh filename="package://so100_description/urdf/assets/Fixed_Jaw_Motor.stl"/>
-      </geometry>
-      <material name="sts3215"/>
-    </visual>
+    <collision>
+      <geometry><mesh filename="package://so100_description/urdf/assets/Fixed_Jaw.stl"/></geometry>
+    </collision>
   </link>
 
   <!-- Link jaw -->
@@ -169,254 +117,155 @@
       <inertia ixx="1.11265e-05" ixy="0" ixz="0" iyy="8.99651e-06" iyz="0" izz="2.99548e-06"/>
     </inertial>
     <visual>
-      <geometry>
-        <mesh filename="package://so100_description/urdf/assets/Moving_Jaw.stl"/>
-      </geometry>
+      <geometry><mesh filename="package://so100_description/urdf/assets/Moving_Jaw.stl"/></geometry>
       <material name="3d_printed"/>
     </visual>
+    <collision>
+      <geometry><mesh filename="package://so100_description/urdf/assets/Moving_Jaw.stl"/></geometry>
+    </collision>
   </link>
 
-
-  <!-- Joint from base to shoulder -->
+  <!-- JOINTS -->
   <joint name="shoulder_pan" type="revolute">
-    <parent link="base"/>
-    <child link="shoulder"/>
+    <parent link="base"/><child link="shoulder"/>
     <origin xyz="0 -0.0452 0.0165" rpy="1.57079 0 0"/>
     <axis xyz="0 1 0"/>
     <limit lower="-2" upper="2" effort="35" velocity="1"/>
   </joint>
 
-  <transmission name="shoulder_pan_trans">
-    <type>transmission_interface/SimpleTransmission</type>
-    <joint name="shoulder_pan">
-      <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
-    </joint>
-    <actuator name="motor1">
-      <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
-      <mechanicalReduction>1</mechanicalReduction>
-    </actuator>
-  </transmission>
-
-  <!-- Joint from shoulder to upper_arm -->
   <joint name="shoulder_lift" type="revolute">
-    <parent link="shoulder"/>
-    <child link="upper_arm"/>
+    <parent link="shoulder"/><child link="upper_arm"/>
     <origin xyz="0 0.1025 0.0306" rpy="-1.8 0 0"/>
     <axis xyz="1 0 0"/>
     <limit lower="0" upper="3.5" effort="35" velocity="1"/>
   </joint>
 
-  <transmission name="shoulder_lift_trans">
-    <type>transmission_interface/SimpleTransmission</type>
-    <joint name="shoulder_lift">
-      <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
-    </joint>
-    <actuator name="motor2">
-      <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
-      <mechanicalReduction>1</mechanicalReduction>
-    </actuator>
-  </transmission>
-
-  <!-- Joint from upper_arm to lower_arm -->
   <joint name="elbow_flex" type="revolute">
-    <parent link="upper_arm"/>
-    <child link="lower_arm"/>
+    <parent link="upper_arm"/><child link="lower_arm"/>
     <origin xyz="0 0.11257 0.028" rpy="1.57079 0 0"/>
     <axis xyz="1 0 0"/>
     <limit lower="-3.14158" upper="0" effort="35" velocity="1"/>
   </joint>
 
-  <transmission name="elbow_flex_trans">
-    <type>transmission_interface/SimpleTransmission</type>
-    <joint name="elbow_flex">
-      <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
-    </joint>
-    <actuator name="motor3">
-      <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
-      <mechanicalReduction>1</mechanicalReduction>
-    </actuator>
-  </transmission>
-
-  <!-- Joint from lower_arm to wrist -->
   <joint name="wrist_flex" type="revolute">
-    <parent link="lower_arm"/>
-    <child link="wrist"/>
+    <parent link="lower_arm"/><child link="wrist"/>
     <origin xyz="0 0.0052 0.1349" rpy="-1 0 0"/>
     <axis xyz="1 0 0"/>
     <limit lower="-2.5" upper="1.2" effort="35" velocity="1"/>
   </joint>
 
-  <transmission name="wrist_flex_trans">
-    <type>transmission_interface/SimpleTransmission</type>
-    <joint name="wrist_flex">
-      <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
-    </joint>
-    <actuator name="motor4">
-      <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
-      <mechanicalReduction>1</mechanicalReduction>
-    </actuator>
-  </transmission>
-
-  <!-- Joint from wrist to gripper -->
   <joint name="wrist_roll" type="revolute">
-    <parent link="wrist"/>
-    <child link="gripper"/>
+    <parent link="wrist"/><child link="gripper"/>
     <origin xyz="0 -0.0601 0" rpy="0 1.57079 0"/>
     <axis xyz="0 1 0"/>
     <limit lower="-3.14158" upper="3.14158" effort="35" velocity="1"/>
   </joint>
 
-  <transmission name="wrist_roll_trans">
-    <type>transmission_interface/SimpleTransmission</type>
-    <joint name="wrist_roll">
-      <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
-    </joint>
-    <actuator name="motor5">
-      <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
-      <mechanicalReduction>1</mechanicalReduction>
-    </actuator>
-  </transmission>
-
-  <!-- Joint from gripper to jaw -->
   <joint name="gripper_joint" type="revolute">
-    <parent link="gripper"/>
-    <child link="jaw"/>
+    <parent link="gripper"/><child link="jaw"/>
     <origin xyz="-0.0202 -0.0244 0" rpy="0 3.14158 0"/>
     <axis xyz="0 0 1"/>
     <limit lower="-0.2" upper="2.0" effort="35" velocity="1"/>
   </joint>
 
-  <transmission name="gripper_trans">
-    <type>transmission_interface/SimpleTransmission</type>
-    <joint name="gripper_joint">
-      <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
-    </joint>
-    <actuator name="motor6">
-      <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
-      <mechanicalReduction>1</mechanicalReduction>
-    </actuator>
-  </transmission>
-
-
-  <!-- world and world joint-->
-  <link name="world"/>
-
-  <joint name="world_joint" type="fixed">
-    <parent link="world"/>
-    <child link="base"/>
-    <origin xyz="0 0 0" rpy="0 0 0"/>
-  </joint>
-
-  <!-- gazebo -->
-
-
-
-
-
-  <!-- gazebo -->
-
-
-  <!-- Gazebo Colors & Physics for Links -->
-  <gazebo reference="base">
-    <visual>
-      <material>
-        <ambient>1.0 0.82 0.12 1.0</ambient>
-        <diffuse>1.0 0.82 0.12 1.0</diffuse>
-        <specular>0.5 0.5 0.5 1.0</specular>
-      </material>
-    </visual>
-  </gazebo>
-
-  <gazebo reference="shoulder">
-    <visual>
-      <material>
-        <ambient>1.0 0.82 0.12 1.0</ambient>
-        <diffuse>1.0 0.82 0.12 1.0</diffuse>
-      </material>
-    </visual>
-  </gazebo>
-
-  <!-- Gazebo Harmonic Control Plugin -->
+  <!-- GAZEBO HARMONIC PLUGINS -->
   <gazebo>
-    <!-- Joint State Publisher for Harmonic -->
-    <plugin filename="gz-sim-joint-state-publisher-system"
-      name="gz::sim::systems::JointStatePublisher">
+    <!-- Joint State Publisher: Sends info GZ -> ROS -->
+    <plugin filename="gz-sim-joint-state-publisher-system" name="gz::sim::systems::JointStatePublisher">
       <topic>joint_states</topic>
+    </plugin>
+
+    <!-- Pose Publisher: Syncs TFs for world -->
+    <plugin filename="gz-sim-pose-publisher-system" name="gz::sim::systems::PosePublisher">
+      <publish_link_pose>true</publish_link_pose>
+      <use_pose_vector_msg>true</use_pose_vector_msg>
+      <static_publisher>true</static_publisher>
+    </plugin>
+
+    <!-- JOINT CONTROLLERS: One for every joint to receive GUI commands -->
+    <plugin filename="gz-sim-joint-position-controller-system" name="gz::sim::systems::JointPositionController">
       <joint_name>shoulder_pan</joint_name>
+      <sub_topic>joint_states</sub_topic>
+    </plugin>
+    <plugin filename="gz-sim-joint-position-controller-system" name="gz::sim::systems::JointPositionController">
       <joint_name>shoulder_lift</joint_name>
+      <sub_topic>joint_states</sub_topic>
+    </plugin>
+    <plugin filename="gz-sim-joint-position-controller-system" name="gz::sim::systems::JointPositionController">
       <joint_name>elbow_flex</joint_name>
+      <sub_topic>joint_states</sub_topic>
+    </plugin>
+    <plugin filename="gz-sim-joint-position-controller-system" name="gz::sim::systems::JointPositionController">
       <joint_name>wrist_flex</joint_name>
+      <sub_topic>joint_states</sub_topic>
+    </plugin>
+    <plugin filename="gz-sim-joint-position-controller-system" name="gz::sim::systems::JointPositionController">
       <joint_name>wrist_roll</joint_name>
+      <sub_topic>joint_states</sub_topic>
+    </plugin>
+    <plugin filename="gz-sim-joint-position-controller-system" name="gz::sim::systems::JointPositionController">
       <joint_name>gripper_joint</joint_name>
       <sub_topic>joint_states</sub_topic>
-      
     </plugin>
-
-    <!-- Position Tracking Plugin (Required for controllers) -->
-    <plugin filename="gz-sim-joint-position-controller-system"
-      name="gz::sim::systems::JointPositionController">
-      <joint_name>shoulder_pan</joint_name>
-      <sub_topic>joint_commands</sub_topic>
-      <p_gain>1000</p_gain>
-      <i_gain>0.1</i_gain>
-      <d_gain>10</d_gain>
-    </plugin>
-    
   </gazebo>
 
-  <gazebo>
-  <plugin
-    filename="gz-sim-pose-publisher-system"
-    name="gz::sim::systems::PosePublisher">
-    <publish_link_pose>true</publish_link_pose>
-    
-    <use_pose_vector_msg>true</use_pose_vector_msg>
-    <static_publisher>true</static_publisher>
-    <static_update_frequency>1</static_update_frequency>
-  </plugin>
-</gazebo>
-
-  <!-- ROS 2 Control (The Bridge to your Python Code) -->
-  <ros2_control name="GazeboSimSystem" type="system">
+<ros2_control name="GazeboSimSystem" type="system">
     <hardware>
       <plugin>gz_ros2_control/GazeboSimSystem</plugin>
     </hardware>
-    
-    <joint name="shoulder_pan">
+      <joint name="shoulder_pan">
       <command_interface name="position"/>
-      <state_interface name="position"/>
+      <state_interface name="position">
+        <param name="initial_value">0.0</param>
+      </state_interface>
       <state_interface name="velocity"/>
     </joint>
 
     <joint name="shoulder_lift">
       <command_interface name="position"/>
-      <state_interface name="position"/>
+      <state_interface name="position">
+        <param name="initial_value">0.0</param>
+      </state_interface>
       <state_interface name="velocity"/>
     </joint>
 
     <joint name="elbow_flex">
       <command_interface name="position"/>
-      <state_interface name="position"/>
+      <state_interface name="position">
+        <param name="initial_value">0.0</param>
+      </state_interface>
       <state_interface name="velocity"/>
     </joint>
 
     <joint name="wrist_flex">
       <command_interface name="position"/>
-      <state_interface name="position"/>
+      <state_interface name="position">
+        <param name="initial_value">0.0</param>
+      </state_interface>
       <state_interface name="velocity"/>
     </joint>
 
     <joint name="wrist_roll">
       <command_interface name="position"/>
-      <state_interface name="position"/>
+      <state_interface name="position">
+        <param name="initial_value">0.0</param>
+      </state_interface>
       <state_interface name="velocity"/>
     </joint>
 
     <joint name="gripper_joint">
       <command_interface name="position"/>
-      <state_interface name="position"/>
+      <state_interface name="position">
+        <param name="initial_value">0.0</param>
+      </state_interface>
       <state_interface name="velocity"/>
     </joint>
   </ros2_control>
+
+<gazebo>
+  <plugin filename="ign_ros2_control-system" name="ign_ros2_control::IgnitionRos2ControlPlugin">
+    <parameters>$(find your_package_name)/config/controllers.yaml</parameters>
+  </plugin>
+</gazebo>
 
 </robot>

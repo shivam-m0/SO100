@@ -1,0 +1,21 @@
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/shivam/so100/install/so100_simulation/share/so100_simulation/launch/a
+-- Symlinking: /home/shivam/so100/install/so100_simulation/share/so100_simulation/launch/sim.launch.py
+-- Symlinking: /home/shivam/so100/install/so100_simulation/share/so100_simulation/launch/sim2.launch.py
+-- Symlinking: /home/shivam/so100/install/so100_simulation/share/so100_simulation/launch/world.launch.py
+-- Symlinking: /home/shivam/so100/install/so100_simulation/share/ament_index/resource_index/package_run_dependencies/so100_simulation
+-- Symlinking: /home/shivam/so100/install/so100_simulation/share/ament_index/resource_index/parent_prefix_path/so100_simulation
+-- Symlinking: /home/shivam/so100/install/so100_simulation/share/so100_simulation/environment/ament_prefix_path.sh
+-- Symlinking: /home/shivam/so100/install/so100_simulation/share/so100_simulation/environment/ament_prefix_path.dsv
+-- Symlinking: /home/shivam/so100/install/so100_simulation/share/so100_simulation/environment/path.sh
+-- Symlinking: /home/shivam/so100/install/so100_simulation/share/so100_simulation/environment/path.dsv
+-- Symlinking: /home/shivam/so100/install/so100_simulation/share/so100_simulation/local_setup.bash
+-- Symlinking: /home/shivam/so100/install/so100_simulation/share/so100_simulation/local_setup.sh
+-- Symlinking: /home/shivam/so100/install/so100_simulation/share/so100_simulation/local_setup.zsh
+-- Symlinking: /home/shivam/so100/install/so100_simulation/share/so100_simulation/local_setup.dsv
+-- Symlinking: /home/shivam/so100/install/so100_simulation/share/so100_simulation/package.dsv
+-- Symlinking: /home/shivam/so100/install/so100_simulation/share/ament_index/resource_index/packages/so100_simulation
+-- Symlinking: /home/shivam/so100/install/so100_simulation/share/so100_simulation/cmake/so100_simulationConfig.cmake
+-- Symlinking: /home/shivam/so100/install/so100_simulation/share/so100_simulation/cmake/so100_simulationConfig-version.cmake
+-- Symlinking: /home/shivam/so100/install/so100_simulation/share/so100_simulation/package.xml
